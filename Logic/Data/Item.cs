@@ -1,7 +1,9 @@
 ﻿using System;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices.ComTypes;
 using System.Text.RegularExpressions;
+using System.Threading.Tasks;
 using Newtonsoft.Json;
 using PWCatsViewer.Logic.Annotations;
 
@@ -24,20 +26,8 @@ namespace PWCatsViewer.Logic.Data {
 		}
 
 		/// <summary>
-		/// Сервер
-		/// </summary>
-		public string Server {
-			get => _server;
-			set {
-				_server = value;
-				OnPropertyChanged(nameof(Server));
-			}
-		}
-
-		/// <summary>
 		/// Цена
 		/// </summary>
-		[JsonIgnore]
 		public Price Price {
 			get => _price;
 			set {
@@ -52,10 +42,9 @@ namespace PWCatsViewer.Logic.Data {
 		public string Link { get; set; }
 
 		private string _name;
-		private string _server;
 		private Price _price;
 
-        
+
 
 		/// <summary>
 		/// Предмет
@@ -64,18 +53,33 @@ namespace PWCatsViewer.Logic.Data {
 		public Item(string link) {
 			Link = link;
 
+
 			Regex parser = new Regex(@"pwcats.info\/(\w*)\/(\d*)");
 			Match info = parser.Match(Link);
 			int id = Convert.ToInt32(info.Groups[2].Value);
 
-			Server = info.Groups[1].ToString();
 			Name = PWCatsApi.GetItemName(id);
-			Price = new Price();
+			ReCalculate();
 		}
 
 
 
-		public async void ReCalculate() => Price = await PWCatsApi.GetPriceAsync(Link);
+		public Item() {
+			Link = "";
+			Name = "";
+			ReCalculate();
+		}
+
+
+
+		public async void ReCalculate() {
+			if (Link != "") {
+				Price = await PWCatsApi.GetPriceAsync(Link);
+			}
+			else {
+				Price = new Price();
+			}
+		}
 
 
 

@@ -14,7 +14,7 @@ namespace PWCatsViewer.Logic.Data {
 
 
 
-		private static Price GetPrice(string link) {
+		public static Price GetPrice(string link) {
 			string html = GetHtml(link);
 			IHtmlDocument doc = new HtmlParser().Parse(html);
 			IElement table =

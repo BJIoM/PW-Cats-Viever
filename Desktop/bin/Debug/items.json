@@ -1,27 +1,74 @@
 [
   {
     "Name": " Камень бессмертных",
-    "Server": "lisichka",
+    "Price": {
+      "Buy": "33 605",
+      "Sell": "34 000"
+    },
     "Link": "https://pwcats.info/lisichka/11208"
   },
   {
     "Name": " Нашивка офицера-призрака",
-    "Server": "lisichka",
+    "Price": {
+      "Buy": "9 000",
+      "Sell": "9 500"
+    },
     "Link": "https://pwcats.info/lisichka/12830"
   },
   {
     "Name": " Рупор",
-    "Server": "lisichka",
+    "Price": {
+      "Buy": "28 010",
+      "Sell": "34 700"
+    },
     "Link": "https://pwcats.info/lisichka/12979"
   },
   {
     "Name": " Серебряная монета",
-    "Server": "lisichka",
+    "Price": {
+      "Buy": "35 010",
+      "Sell": "37 000"
+    },
     "Link": "https://pwcats.info/lisichka/41375"
   },
   {
     "Name": " Бронзовая монета",
-    "Server": "lisichka",
+    "Price": {
+      "Buy": "570 000",
+      "Sell": "608 450"
+    },
     "Link": "https://pwcats.info/lisichka/39872"
+  },
+  {
+    "Name": " Идеальный приз",
+    "Price": {
+      "Buy": "30 040",
+      "Sell": "38 890"
+    },
+    "Link": "https://pwcats.info/lisichka/24721"
+  },
+  {
+    "Name": " Чудесный кристалл",
+    "Price": {
+      "Buy": "56 050",
+      "Sell": "69 000"
+    },
+    "Link": "https://pwcats.info/lisichka/25821"
+  },
+  {
+    "Name": " Кристалл восприятия",
+    "Price": {
+      "Buy": "132 000",
+      "Sell": "146 000"
+    },
+    "Link": "https://pwcats.info/lisichka/25820"
+  },
+  {
+    "Name": " Фрагмент кровавого камня (небо)",
+    "Price": {
+      "Buy": "206 000",
+      "Sell": "270 000"
+    },
+    "Link": "https://pwcats.info/lisichka/50249"
   }
 ]

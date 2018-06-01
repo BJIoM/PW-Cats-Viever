@@ -107,9 +107,7 @@ E:\C#\Rider\PW Cats Viever\Desktop\obj\Release\ItemCard.baml
 E:\C#\Rider\PW Cats Viever\Desktop\obj\Release\ItemCard.g.cs
 E:\C#\Rider\PW Cats Viever\Desktop\obj\Release\MainWindow.g.cs
 E:\C#\Rider\PW Cats Viever\Desktop\obj\Release\App.g.cs
-E:\C#\Rider\PW Cats Viever\Desktop\obj\Release\GeneratedInternalTypeHelper.g.cs
 E:\C#\Rider\PW Cats Viever\Desktop\obj\Release\Desktop_MarkupCompile.cache
-E:\C#\Rider\PW Cats Viever\Desktop\obj\Release\Desktop_MarkupCompile.lref
 E:\C#\Rider\PW Cats Viever\Desktop\obj\Release\MainWindow.baml
 E:\C#\Rider\PW Cats Viever\Desktop\obj\Release\Desktop.g.resources
 E:\C#\Rider\PW Cats Viever\Desktop\obj\Release\PWCatsViewer.Desktop.Properties.Resources.resources
