@@ -1,0 +1,9 @@
+E:\C#\Rider\PW Cats Viever\Logic\bin\Debug\netstandard2.0\Logic.deps.json
+E:\C#\Rider\PW Cats Viever\Logic\bin\Debug\netstandard2.0\Logic.dll
+E:\C#\Rider\PW Cats Viever\Logic\bin\Debug\netstandard2.0\Logic.pdb
+E:\C#\Rider\PW Cats Viever\Logic\obj\Debug\netstandard2.0\Logic.csprojResolveAssemblyReference.cache
+E:\C#\Rider\PW Cats Viever\Logic\obj\Debug\netstandard2.0\Logic.csproj.CoreCompileInputs.cache
+E:\C#\Rider\PW Cats Viever\Logic\obj\Debug\netstandard2.0\Logic.AssemblyInfoInputs.cache
+E:\C#\Rider\PW Cats Viever\Logic\obj\Debug\netstandard2.0\Logic.AssemblyInfo.cs
+E:\C#\Rider\PW Cats Viever\Logic\obj\Debug\netstandard2.0\Logic.dll
+E:\C#\Rider\PW Cats Viever\Logic\obj\Debug\netstandard2.0\Logic.pdb

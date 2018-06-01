@@ -1,0 +1,96 @@
+﻿<Window x:Class="PWCatsViewer.Desktop.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:vm="clr-namespace:PWCatsViewer.Desktop"
+        mc:Ignorable="d" Closed="Window_OnClosed"
+        Title="PW Cats Viewer" Height="300" Width="1000" Loaded="Window_OnLoaded">
+
+    <Window.DataContext>
+        <vm:MainWindowModel />
+    </Window.DataContext>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="2*" />
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <vm:ItemCard Item="{Binding Items[0]}"
+                         Margin="1"
+                         Command="{Binding Click}"
+                         CommandParameter="0"
+                         Grid.Column="0" />
+            <vm:ItemCard Item="{Binding Items[1]}"
+                         Margin="1"
+                         Command="{Binding Click}"
+                         CommandParameter="1"
+                         Grid.Column="1" />
+            <vm:ItemCard Item="{Binding Items[2]}"
+                         Margin="1"
+                         Command="{Binding Click}"
+                         CommandParameter="2"
+                         Grid.Column="2" />
+            <vm:ItemCard Item="{Binding Items[3]}"
+                         Margin="1"
+                         Command="{Binding Click}"
+                         CommandParameter="3"
+                         Grid.Column="3" />
+            <vm:ItemCard Item="{Binding Items[4]}"
+                         Margin="1"
+                         Command="{Binding Click}"
+                         CommandParameter="4"
+                         Grid.Column="4" />
+        </Grid>
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="10*" />
+                <ColumnDefinition Width="1*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="1*" />
+            </Grid.RowDefinitions>
+
+
+            <Label Content="{Binding SelectedItem.Name}"
+                   HorizontalAlignment="Center"
+                   FontFamily="Century Gothic"
+                   FontSize="36"
+                   Grid.Row="0"
+                   Grid.Column="0"
+                   Grid.ColumnSpan="3" />
+
+            <Label Content="{Binding SelectedItem.Price.Sell}"
+                   ContentStringFormat="Продажа: {0}"
+                   HorizontalAlignment="Center"
+                   FontFamily="Century Gothic"
+                   FontSize="24"
+                   Foreground="Blue"
+                   Grid.Row="1"
+                   Grid.Column="1" />
+
+            <Label Content="{Binding SelectedItem.Price.Buy}"
+                   ContentStringFormat="Скуп: {0}"
+                   HorizontalAlignment="Center"
+                   FontFamily="Century Gothic"
+                   FontSize="24"
+                   Foreground="Maroon"
+                   Grid.Row="2"
+                   Grid.Column="1" />
+        </Grid>
+    </Grid>
+</Window>
