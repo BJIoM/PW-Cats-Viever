@@ -1,28 +1,22 @@
-﻿<Controls:MetroWindow x:Class="PWCatsViewer.Desktop.MainWindow"
+﻿<controls:MetroWindow x:Class="PWCatsViewer.Desktop.MainWindow"
                       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                       xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
                       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-                      xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+                      xmlns:controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
                       mc:Ignorable="d"
                       x:Name="Window"
-                      Title="PW Cats Viewer" Height="360" Width="900">
+                      Title="PW Cats Viewer" Height="360" Width="900"
+                      WindowStartupLocation="CenterScreen">
 
-
-    <Grid Name="ItemTable">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="*" />
-            <RowDefinition Height="*" />
-            <RowDefinition Height="*" />
-        </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="*" />
-        </Grid.ColumnDefinitions>
-    </Grid>
-
+    <controls:MetroWindow.RightWindowCommands>
+        <controls:WindowCommands>
+            <Button Content="Настройки" Click="Button_OnClick" />
+        </controls:WindowCommands>
+    </controls:MetroWindow.RightWindowCommands>
+    
+    <UniformGrid Name="ItemTable"/>
 
     <Window.Loaded>Window_OnLoaded</Window.Loaded>
     <Window.Closed>Window_OnClosed</Window.Closed>
-</Controls:MetroWindow>
+</controls:MetroWindow>

@@ -115,3 +115,15 @@ E:\C#\Rider\PW Cats Viever\Desktop\obj\Release\Desktop.csproj.GenerateResource.C
 E:\C#\Rider\PW Cats Viever\Desktop\obj\Release\Desktop.csproj.CoreCompileInputs.cache
 E:\C#\Rider\PW Cats Viever\Desktop\obj\Release\Desktop.exe
 E:\C#\Rider\PW Cats Viever\Desktop\obj\Release\Desktop.pdb
+E:\C#\Rider\PW Cats Viever\Desktop\bin\Release\ControlzEx.dll
+E:\C#\Rider\PW Cats Viever\Desktop\bin\Release\MahApps.Metro.dll
+E:\C#\Rider\PW Cats Viever\Desktop\bin\Release\System.Configuration.dll
+E:\C#\Rider\PW Cats Viever\Desktop\bin\Release\System.Windows.Interactivity.dll
+E:\C#\Rider\PW Cats Viever\Desktop\bin\Release\AngleSharp.dll
+E:\C#\Rider\PW Cats Viever\Desktop\bin\Release\ControlzEx.pdb
+E:\C#\Rider\PW Cats Viever\Desktop\bin\Release\MahApps.Metro.pdb
+E:\C#\Rider\PW Cats Viever\Desktop\bin\Release\MahApps.Metro.xml
+E:\C#\Rider\PW Cats Viever\Desktop\obj\Release\App.baml
+E:\C#\Rider\PW Cats Viever\Desktop\obj\Release\SettingsWindow.g.cs
+E:\C#\Rider\PW Cats Viever\Desktop\obj\Release\Desktop_MarkupCompile.lref
+E:\C#\Rider\PW Cats Viever\Desktop\obj\Release\SettingsWindow.baml

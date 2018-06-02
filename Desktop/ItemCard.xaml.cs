@@ -1,6 +1,4 @@
-﻿using System;
-using System.Windows;
-using System.Windows.Media.Imaging;
+﻿using System.Windows;
 using PWCatsViewer.Logic.Data;
 
 namespace PWCatsViewer.Desktop {
@@ -28,10 +26,12 @@ namespace PWCatsViewer.Desktop {
 			if (!editMode) {
 				editMode = true;
 				ItemLink.Visibility = Visibility.Visible;
+				ItemName.Visibility = Visibility.Hidden;
 			}
 			else {
 				editMode = false;
 				ItemLink.Visibility = Visibility.Hidden;
+				ItemName.Visibility = Visibility.Visible;
 			}
 		}
 	}

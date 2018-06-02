@@ -8,49 +8,54 @@
         BorderBrush="Black"
         mc:Ignorable="d"
         d:DesignHeight="60" d:DesignWidth="100">
-    
+
     <Border.Resources>
-        <Image x:Key="Settings" Source="https://www.materialui.co/materialIcons/action/settings_black_144x144.png"/>
+        <Image x:Key="Settings" Source="https://www.materialui.co/materialIcons/action/settings_black_18x18.png" />
     </Border.Resources>
 
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="*" />
-            <RowDefinition Height="*" />
-            <RowDefinition Height="*" />
+            <RowDefinition Height="3*" />
+            <RowDefinition Height="2*" />
         </Grid.RowDefinitions>
 
         <Grid Grid.Row="0">
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="2*" />
+                <ColumnDefinition Width="3*" />
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
 
-            <TextBox Name="ItemLink"
-                     Text="{Binding Path=Item.Link, ElementName=Card, Mode=TwoWay}"
-                     HorizontalAlignment="Center"
-                     VerticalAlignment="Center"
-                     FontFamily="Century Gothic"
-                     FontSize="10"
-                     Visibility="Hidden"
-                     Grid.Column="0" />
 
             <Button Content="{StaticResource Settings}"
-                    HorizontalAlignment="Center"
+                    HorizontalAlignment="Right"
                     VerticalAlignment="Center"
                     Background="Transparent"
+                    BorderThickness="0"
                     Click="Button_OnClick"
                     Grid.Column="1" />
 
         </Grid>
 
 
-        <Label Content="{Binding Path=Item.Name, ElementName=Card}"
+        <TextBox Name="ItemLink"
+                 Text="{Binding Path=Item.Link, ElementName=Card, Mode=TwoWay}"
+                 HorizontalAlignment="Center"
+                 VerticalAlignment="Center"
+                 FontFamily="Century Gothic"
+                 FontSize="16"
+                 Visibility="Hidden"
+                 Grid.Row="0"
+                 Grid.RowSpan="2" />
+
+        <Label Name="ItemName"
+               Content="{Binding Path=Item.Name, ElementName=Card}"
                HorizontalAlignment="Center"
                VerticalAlignment="Center"
                FontFamily="Century Gothic"
                FontSize="16"
-               Grid.Row="1" />
+               Grid.Row="0"
+               Grid.RowSpan="2" />
 
         <Grid Grid.Row="2">
             <Grid.ColumnDefinitions>

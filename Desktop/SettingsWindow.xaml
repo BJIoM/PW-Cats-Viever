@@ -1,0 +1,48 @@
+﻿<controls:MetroWindow x:Class="PWCatsViewer.Desktop.SettingsWindow"
+                      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                      xmlns:controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+                      xmlns:settings="clr-namespace:PWCatsViewer.Desktop.Properties"
+                      mc:Ignorable="d"
+                      Title="Настройки" 
+                      Height="150" Width="250" ResizeMode="NoResize"
+                      WindowStartupLocation="CenterScreen"
+                      Closing="MetroWindow_OnClosing">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <controls:NumericUpDown Minimum="1"
+                                Maximum="8"
+                                Interval="1"
+                                Value="{Binding Source={x:Static settings:Settings.Rows}, Mode=OneWay}"
+                                NumericInputMode="Numbers"
+                                StringFormat="Число строк: {0}"
+                                ValueChanged="Rows_OnValueChanged"
+                                Grid.Row="0" />
+
+        <controls:NumericUpDown Minimum="1"
+                                Maximum="5"
+                                Interval="1"
+                                Value="{Binding Source={x:Static settings:Settings.Columns}, Mode=OneWay}"
+                                NumericInputMode="Numbers"
+                                StringFormat="Число колонок: {0}"
+                                ValueChanged="Columns_OnValueChanged"
+                                Grid.Row="1" />
+        
+        <controls:NumericUpDown Minimum="10"
+                                Maximum="3600"
+                                Interval="5"
+                                Value="{Binding Source={x:Static settings:Settings.UpdateInterval}, Mode=OneWay}"
+                                NumericInputMode="Numbers"
+                                StringFormat="Обновлять цены каждые {0} сек."
+                                ValueChanged="UpdateInterval_OnValueChanged"
+                                Grid.Row="2" />
+    </Grid>
+</controls:MetroWindow>

@@ -123,3 +123,8 @@ E:\C#\Rider\PW Cats Viever\Desktop\bin\Debug\ControlzEx.pdb
 E:\C#\Rider\PW Cats Viever\Desktop\bin\Debug\MahApps.Metro.pdb
 E:\C#\Rider\PW Cats Viever\Desktop\bin\Debug\MahApps.Metro.xml
 E:\C#\Rider\PW Cats Viever\Desktop\obj\Debug\App.baml
+E:\C#\Rider\PW Cats Viever\Desktop\obj\Debug\SettingsWindow.baml
+E:\C#\Rider\PW Cats Viever\Desktop\obj\Debug\SettingsWindow.g.cs
+E:\C#\Rider\PW Cats Viever\Desktop\bin\Debug\System.Configuration.dll
+E:\C#\Rider\PW Cats Viever\Desktop\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\C#\Rider\PW Cats Viever\Desktop\obj\Debug\Desktop_MarkupCompile.lref
