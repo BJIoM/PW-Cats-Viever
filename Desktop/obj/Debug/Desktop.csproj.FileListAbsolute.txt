@@ -116,3 +116,10 @@ E:\C#\Rider\PW Cats Viever\Desktop\obj\Debug\ItemCard.baml
 E:\C#\Rider\PW Cats Viever\Desktop\bin\Debug\AngleSharp.dll
 E:\C#\Rider\PW Cats Viever\Desktop\bin\Debug\Newtonsoft.Json.dll
 E:\C#\Rider\PW Cats Viever\Desktop\bin\Debug\Newtonsoft.Json.xml
+E:\C#\Rider\PW Cats Viever\Desktop\bin\Debug\ControlzEx.dll
+E:\C#\Rider\PW Cats Viever\Desktop\bin\Debug\MahApps.Metro.dll
+E:\C#\Rider\PW Cats Viever\Desktop\bin\Debug\System.Windows.Interactivity.dll
+E:\C#\Rider\PW Cats Viever\Desktop\bin\Debug\ControlzEx.pdb
+E:\C#\Rider\PW Cats Viever\Desktop\bin\Debug\MahApps.Metro.pdb
+E:\C#\Rider\PW Cats Viever\Desktop\bin\Debug\MahApps.Metro.xml
+E:\C#\Rider\PW Cats Viever\Desktop\obj\Debug\App.baml

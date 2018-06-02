@@ -2,10 +2,11 @@
   {
     "Name": " Камень бессмертных",
     "Price": {
-      "Buy": "33 700",
-      "Sell": "34 835"
+      "Buy": "34 005",
+      "Sell": "34 695"
     },
-    "Link": "https://pwcats.info/lisichka/11208"
+    "Link": "https://pwcats.info/lisichka/11208",
+    "Icon": "https://pwcats.info/img/item/11208.png"
   },
   {
     "Name": " Печать небожителей",
@@ -13,62 +14,70 @@
       "Buy": "30 300",
       "Sell": "42 800"
     },
-    "Link": "https://pwcats.info/lisichka/28061"
+    "Link": "https://pwcats.info/lisichka/28061",
+    "Icon": "https://pwcats.info/img/item/28061.png"
   },
   {
-    "Name": " Знак Боевой песни",
+    "Name": " Печать небожителей",
     "Price": {
-      "Buy": "4 100",
-      "Sell": "6 400"
+      "Buy": "30 300",
+      "Sell": "42 800"
     },
-    "Link": "https://pwcats.info/lisichka/24633"
+    "Link": "https://pwcats.info/lisichka/28061",
+    "Icon": "https://pwcats.info/img/item/28061.png"
   },
   {
     "Name": " Серебряная монета",
     "Price": {
-      "Buy": "35 600",
+      "Buy": "35 610",
       "Sell": "37 000"
     },
-    "Link": "https://pwcats.info/lisichka/41375"
+    "Link": "https://pwcats.info/lisichka/41375",
+    "Icon": "https://pwcats.info/img/item/41375.png"
   },
   {
-    "Name": " Знак Боевой песни",
+    "Name": " Осколок реликвии",
     "Price": {
-      "Buy": "4 100",
-      "Sell": "6 400"
+      "Buy": "45 850",
+      "Sell": "56 900"
     },
-    "Link": "https://pwcats.info/lisichka/24633"
+    "Link": "https://pwcats.info/lisichka/48188",
+    "Icon": "https://pwcats.info/img/item/48188.png"
   },
   {
-    "Name": " Знак Боевой песни",
+    "Name": " Части страницы устава судьбы",
     "Price": {
-      "Buy": "4 100",
-      "Sell": "6 400"
+      "Buy": "5 500",
+      "Sell": "20 700"
     },
-    "Link": "https://pwcats.info/lisichka/24633"
+    "Link": "https://pwcats.info/lisichka/19004",
+    "Icon": "https://pwcats.info/img/item/19004.png"
   },
   {
     "Name": " Чудесный кристалл",
     "Price": {
-      "Buy": "56 150",
-      "Sell": "69 770"
+      "Buy": "56 350",
+      "Sell": "69 690"
     },
-    "Link": "https://pwcats.info/lisichka/25821"
+    "Link": "https://pwcats.info/lisichka/25821",
+    "Icon": "https://pwcats.info/img/item/25821.png"
   },
   {
     "Name": " Знак Боевой песни",
     "Price": {
-      "Buy": "4 100",
-      "Sell": "6 400"
+      "Buy": "4 150",
+      "Sell": "6 195"
     },
-    "Link": "https://pwcats.info/lisichka/24633"
+    "Link": "https://pwcats.info/lisichka/24633",
+    "Icon": "https://pwcats.info/img/item/24633.png"
   },
   {
     "Name": " Фрагмент кровавого камня (небо)",
     "Price": {
       "Buy": "216 100",
-      "Sell": "270 000"
+      "Sell": "299 000"
     },
-    "Link": "https://pwcats.info/lisichka/50249"
+    "Link": "https://pwcats.info/lisichka/50249",
+    "Icon": "https://pwcats.info/img/item/50249.png"
   }
 ]

@@ -1,4 +1,6 @@
-﻿using System.Windows;
+﻿using System;
+using System.Windows;
+using System.Windows.Media.Imaging;
 using PWCatsViewer.Logic.Data;
 
 namespace PWCatsViewer.Desktop {

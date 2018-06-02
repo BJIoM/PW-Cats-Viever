@@ -9,6 +9,10 @@
         mc:Ignorable="d"
         d:DesignHeight="60" d:DesignWidth="100">
     
+    <Border.Resources>
+        <Image x:Key="Settings" Source="https://www.materialui.co/materialIcons/action/settings_black_144x144.png"/>
+    </Border.Resources>
+
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="*" />
@@ -27,15 +31,14 @@
                      HorizontalAlignment="Center"
                      VerticalAlignment="Center"
                      FontFamily="Century Gothic"
-                     FontSize="8"
+                     FontSize="10"
                      Visibility="Hidden"
                      Grid.Column="0" />
 
-            <Button Content="⚙"
+            <Button Content="{StaticResource Settings}"
                     HorizontalAlignment="Center"
                     VerticalAlignment="Center"
-                    FontFamily="Century Gothic"
-                    FontSize="8"
+                    Background="Transparent"
                     Click="Button_OnClick"
                     Grid.Column="1" />
 
@@ -47,8 +50,7 @@
                VerticalAlignment="Center"
                FontFamily="Century Gothic"
                FontSize="16"
-               Grid.Row="0"
-               Grid.RowSpan="2" />
+               Grid.Row="1" />
 
         <Grid Grid.Row="2">
             <Grid.ColumnDefinitions>
@@ -64,6 +66,14 @@
                    FontSize="20"
                    Foreground="Blue"
                    Grid.Column="0" />
+
+            <Image Source="{Binding Path=Item.Icon, ElementName=Card}"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Center"
+                   Height="32"
+                   Width="32"
+                   Stretch="Fill"
+                   Grid.Column="1" />
 
             <Label Content="{Binding Path=Item.Price.Buy, ElementName=Card}"
                    HorizontalAlignment="Center"

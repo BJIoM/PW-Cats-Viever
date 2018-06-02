@@ -1,10 +1,9 @@
 ﻿using System;
 using System.ComponentModel;
+using System.IO;
+using System.Net;
 using System.Runtime.CompilerServices;
-using System.Runtime.InteropServices.ComTypes;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
-using Newtonsoft.Json;
 using PWCatsViewer.Logic.Annotations;
 
 namespace PWCatsViewer.Logic.Data {
@@ -44,12 +43,23 @@ namespace PWCatsViewer.Logic.Data {
 			set {
 				_link = value;
 				UpdateName();
+				OnPropertyChanged(nameof(Icon));
 				UpdatePrice();
-			} }
+			}
+		}
+
+		/// <summary>
+		/// Иконка предмета
+		/// </summary>
+		public string Icon {
+			get => $"https://pwcats.info/img/item/{_id}.png";
+		}
+
 
 		private string _name;
 		private Price _price;
 		private string _link;
+		private int _id;
 
 
 
@@ -69,14 +79,15 @@ namespace PWCatsViewer.Logic.Data {
 			if (Link != "") {
 				Regex parser = new Regex(@"pwcats.info\/(\w*)\/(\d*)");
 				Match info = parser.Match(Link);
-				int id = Convert.ToInt32(info.Groups[2].Value);
-				Name = await PWCatsApi.GetNameAsync(id);
+				_id = Convert.ToInt32(info.Groups[2].Value);
+				Name = await PWCatsApi.GetNameAsync(_id);
 			}
 			else {
 				Name = "";
 			}
 		}
-		
+
+
 
 		public async void UpdatePrice() {
 			if (Link != "") {
