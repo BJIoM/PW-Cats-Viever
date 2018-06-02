@@ -8,8 +8,7 @@
         Title="PW Cats Viewer" Height="360" Width="900">
 
     
-    <Grid Name="ItemTable"
-        ShowGridLines="True">
+    <Grid Name="ItemTable">
         <Grid.RowDefinitions>
             <RowDefinition Height="*" />
             <RowDefinition Height="*" />

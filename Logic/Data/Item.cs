@@ -39,10 +39,17 @@ namespace PWCatsViewer.Logic.Data {
 		/// <summary>
 		/// Ссылка на предмет
 		/// </summary>
-		public string Link { get; set; }
+		public string Link {
+			get => _link;
+			set {
+				_link = value;
+				UpdateName();
+				UpdatePrice();
+			} }
 
 		private string _name;
 		private Price _price;
+		private string _link;
 
 
 
@@ -50,29 +57,28 @@ namespace PWCatsViewer.Logic.Data {
 		/// Предмет
 		/// </summary>
 		/// <param name="link">Ссылка на котобазу</param>
-		public Item(string link) {
-			Link = link;
+		public Item(string link) => Link = link;
 
 
-			Regex parser = new Regex(@"pwcats.info\/(\w*)\/(\d*)");
-			Match info = parser.Match(Link);
-			int id = Convert.ToInt32(info.Groups[2].Value);
 
-			Name = PWCatsApi.GetItemName(id);
-			ReCalculate();
+		public Item() => Link = "";
+
+
+
+		private async void UpdateName() {
+			if (Link != "") {
+				Regex parser = new Regex(@"pwcats.info\/(\w*)\/(\d*)");
+				Match info = parser.Match(Link);
+				int id = Convert.ToInt32(info.Groups[2].Value);
+				Name = await PWCatsApi.GetNameAsync(id);
+			}
+			else {
+				Name = "";
+			}
 		}
+		
 
-
-
-		public Item() {
-			Link = "";
-			Name = "";
-			ReCalculate();
-		}
-
-
-
-		public async void ReCalculate() {
+		public async void UpdatePrice() {
 			if (Link != "") {
 				Price = await PWCatsApi.GetPriceAsync(Link);
 			}

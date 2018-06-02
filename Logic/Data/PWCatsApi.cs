@@ -13,6 +13,7 @@ namespace PWCatsViewer.Logic.Data {
 		public static async Task<Price> GetPriceAsync(string link) => await Task.Run(() => GetPrice(link));
 
 
+		public static async Task<string> GetNameAsync(int id) => await Task.Run(() => GetName(id));
 
 		public static Price GetPrice(string link) {
 			string html = GetHtml(link);
@@ -34,7 +35,7 @@ namespace PWCatsViewer.Logic.Data {
 			return price;
 		}
 
-		public static string GetItemName(int id) {
+		public static string GetName(int id) {
 			string html = GetHtml("http://pwdb.info/ru/item/" + id);
 			IHtmlDocument doc = new HtmlParser().Parse(html);
 			return doc.GetElementsByTagName("h3")[0].TextContent;

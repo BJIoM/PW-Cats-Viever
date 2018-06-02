@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Timers;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Media;
 using Newtonsoft.Json;
 using PWCatsViewer.Logic.Data;
 
@@ -30,7 +31,10 @@ namespace PWCatsViewer.Desktop {
 
 			for (int row = 0; row < 3; row++) {
 				for (int column = 0; column < 3; column++) {
-					ItemCard card = new ItemCard {Margin = new Thickness(1)};
+					ItemCard card = new ItemCard {
+						                             Margin = new Thickness(1),
+						                             Style = GetStyle(row, column)
+					                             };
 					ItemTable.Children.Add(card);
 					Grid.SetRow(card, row);
 					Grid.SetColumn(card, column);
@@ -42,7 +46,7 @@ namespace PWCatsViewer.Desktop {
 
 		private async void Window_OnLoaded(object sender, RoutedEventArgs e) {
 			Title = "PW Cats Viewer [Загрузка...]";
-			
+
 			var items = await Task.Run(() => {
 				if (File.Exists("items.json")) {
 					string json = File.ReadAllText("items.json");
@@ -64,7 +68,7 @@ namespace PWCatsViewer.Desktop {
 			});
 			for (int i = 0; i < items.Count; i++) {
 				Items.Add(items[i]);
-				Items[i].ReCalculate();
+				Items[i].UpdatePrice();
 				( (ItemCard) ItemTable.Children[i] ).Item = Items[i];
 			}
 
@@ -72,18 +76,27 @@ namespace PWCatsViewer.Desktop {
 				                     Interval = 60000,
 				                     AutoReset = true,
 			                     };
-			_updater.Elapsed += UpdateTime;
+			_updater.Elapsed += UpdatePrices;
 			_updater.Start();
-			
+
 			Title = "PW Cats Viewer";
 		}
 
 
 
-		private void UpdateTime(object sender, ElapsedEventArgs e) {
+		private void UpdatePrices(object sender, ElapsedEventArgs e) {
 			foreach (Item item in Items) {
-				item.ReCalculate();
+				item.UpdatePrice();
 			}
+		}
+
+
+		private Style GetStyle(int row, int column) {
+			int pos = ( ( row + 1 ) + ( column + 1 ) ) % 2;
+			
+			Style itemCardStyle = new Style();
+			itemCardStyle.Setters.Add(new Setter {Property = BackgroundProperty, Value = pos == 0 ? Brushes.Bisque : Brushes.PapayaWhip});
+			return itemCardStyle;
 		}
 
 

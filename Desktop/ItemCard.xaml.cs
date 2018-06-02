@@ -8,12 +8,29 @@ namespace PWCatsViewer.Desktop {
 			set => SetValue(ItemProperty, value);
 		}
 
+		private bool editMode;
+		
+		public ItemCard() {
+			InitializeComponent();
+			editMode = false;
+		}
 
-		public ItemCard() => InitializeComponent();
 
 
 		public static readonly DependencyProperty ItemProperty =
 			DependencyProperty.Register(
 				"Item", typeof(Item), typeof(ItemCard));
+
+
+		private void Button_OnClick(object sender, RoutedEventArgs e) {
+			if (!editMode) {
+				editMode = true;
+				ItemLink.Visibility = Visibility.Visible;
+			}
+			else {
+				editMode = false;
+				ItemLink.Visibility = Visibility.Hidden;
+			}
+		}
 	}
 }
