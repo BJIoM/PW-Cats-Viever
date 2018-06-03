@@ -11,101 +11,66 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainWindow.xaml.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainWindow.xaml.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Desktop/MainWindow.xaml.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="126" column="57" selection-start-line="126" selection-start-column="57" selection-end-line="126" selection-end-column="57" />
+            <state relative-caret-position="442">
+              <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
               <folding>
-                <marker date="1527949318698" expanded="true" signature="6:433" ph="..." />
-                <marker date="1527949318698" expanded="true" signature="466:4011" ph="{...}" />
-                <marker date="1527949318698" expanded="false" signature="469:541" ph="/// Interaction logic for MainWindow.xaml ... " />
-                <marker date="1527949318698" expanded="true" signature="575:4009" ph="{...}" />
-                <marker date="1527949318698" expanded="false" signature="579:624" ph="/// Предметы ... " />
-                <marker date="1527949318698" expanded="false" signature="729:1176" ph="{...}" />
-                <marker date="1527949318698" expanded="true" signature="930:1172" ph="{...}" />
-                <marker date="1527949318698" expanded="true" signature="994:1167" ph="{...}" />
-                <marker date="1527949318698" expanded="false" signature="1251:2690" ph="{...}" />
-                <marker date="1527949318698" expanded="false" signature="1333:2226" ph="{...}" />
-                <marker date="1527949318698" expanded="true" signature="1370:1489" ph="{...}" />
-                <marker date="1527949318698" expanded="true" signature="1517:2220" ph="{...}" />
-                <marker date="1527949318698" expanded="false" signature="2270:2434" ph="{...}" />
-                <marker date="1527949318698" expanded="true" signature="2333:2399" ph="{...}" />
-                <marker date="1527949318698" expanded="true" signature="2410:2429" ph="{...}" />
-                <marker date="1527949318698" expanded="false" signature="2460:2597" ph="{...}" />
-                <marker date="1527949318698" expanded="false" signature="2757:2825" ph="{...}" />
-                <marker date="1527949318698" expanded="true" signature="2791:2821" ph="{...}" />
-                <marker date="1527949318698" expanded="false" signature="2875:3534" ph="{...}" />
-                <marker date="1527949318698" expanded="true" signature="3007:3218" ph="{...}" />
-                <marker date="1527949318698" expanded="false" signature="3597:3718" ph="{...}" />
-                <marker date="1527949318698" expanded="true" signature="3786:4006" ph="{...}" />
+                <marker date="1528010113779" expanded="false" signature="6:352" ph="..." />
+                <marker date="1528010113779" expanded="true" signature="385:3399" ph="{...}" />
+                <marker date="1528010113779" expanded="false" signature="388:460" ph="/// Interaction logic for MainWindow.xaml ... " />
+                <marker date="1528010113779" expanded="true" signature="494:3397" ph="{...}" />
+                <marker date="1528010113779" expanded="false" signature="498:543" ph="/// Предметы ... " />
+                <marker date="1528010113779" expanded="false" signature="648:1123" ph="{...}" />
+                <marker date="1528010113779" expanded="false" signature="849:1119" ph="{...}" />
+                <marker date="1528010113779" expanded="true" signature="913:1114" ph="{...}" />
+                <marker date="1528010113779" expanded="false" signature="1198:2067" ph="{...}" />
+                <marker date="1528010113779" expanded="false" signature="1280:1593" ph="{...}" />
+                <marker date="1528010113779" expanded="true" signature="1352:1473" ph="{...}" />
+                <marker date="1528010113779" expanded="true" signature="1532:1568" ph="{...}" />
+                <marker date="1528010113779" expanded="true" signature="1637:1811" ph="{...}" />
+                <marker date="1528010113779" expanded="true" signature="1710:1776" ph="{...}" />
+                <marker date="1528010113779" expanded="true" signature="1787:1806" ph="{...}" />
+                <marker date="1528010113779" expanded="false" signature="1837:1974" ph="{...}" />
+                <marker date="1528010113779" expanded="false" signature="2134:2202" ph="{...}" />
+                <marker date="1528010113779" expanded="true" signature="2168:2198" ph="{...}" />
+                <marker date="1528010113779" expanded="false" signature="2259:2922" ph="{...}" />
+                <marker date="1528010113779" expanded="true" signature="2391:2602" ph="{...}" />
+                <marker date="1528010113779" expanded="false" signature="2985:3106" ph="{...}" />
+                <marker date="1528010113779" expanded="false" signature="3174:3394" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainWindow.xaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Desktop/MainWindow.xaml">
+      <file leaf-file-name="Item.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Logic/Data/Item.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
+            <state relative-caret-position="323">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
               <folding>
-                <marker date="1527949289885" expanded="true" signature="0:1109" ph="&lt;&lt;controls:MetroWindow.RightWindowCommands&gt;&#10;        &lt;controls:WindowCommands&gt;&#10;            &lt;Button Content=&quot;Настройки&quot; Click=&quot;Button_OnClick&quot; /&gt;&#10;        &lt;/controls:WindowCommands&gt;&#10;    &lt;/controls:MetroWindow.RightWindowCommands&gt; &lt;UniformGrid Name=&quot;ItemTable&quot;/&gt; &lt;Window.Loaded&gt;Window_OnLoaded&lt;/Window.Loaded&gt; &lt;Window.Closed&gt;Window_OnClosed&lt;/Window.Closed&gt;.../&gt;" />
-                <marker date="1527949289885" expanded="true" signature="716:941" ph="&lt;&lt;controls:WindowCommands&gt;&#10;            &lt;Button Content=&quot;Настройки&quot; Click=&quot;Button_OnClick&quot; /&gt;&#10;        &lt;/controls:WindowCommands&gt;.../&gt;" />
-                <marker date="1527949289885" expanded="true" signature="767:893" ph="&lt;&lt;Button Content=&quot;Настройки&quot; Click=&quot;Button_OnClick&quot; /&gt;.../&gt;" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SettingsWindow.xaml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Desktop/SettingsWindow.xaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="82" lean-forward="true" selection-start-line="4" selection-start-column="82" selection-end-line="4" selection-end-column="82" />
-              <folding>
-                <marker date="1527949332925" expanded="true" signature="0:2569" ph="&lt;&lt;Grid&gt;&#10;        &lt;Grid.RowDefinitions&gt;&#10;            &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;            &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;            &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;        &lt;/Grid.RowDefinitions&gt;&#10;&#10;        &lt;controls:NumericUpDown Minimum=&quot;1&quot;&#10;                                Maximum=&quot;8&quot;&#10;                                Interval=&quot;1&quot;&#10;                                Value=&quot;{Binding Source={x:Static settings:Settings.Rows}, Mode=OneWay}&quot;&#10;                                NumericInputMode=&quot;Numbers&quot;&#10;                                StringFormat=&quot;Число строк: {0}&quot;&#10;                                ValueChanged=&quot;Rows_OnValueChanged&quot;&#10;                                Grid.Row=&quot;0&quot; /&gt;&#10;&#10;        &lt;controls:NumericUpDown Minimum=&quot;1&quot;&#10;                                Maximum=&quot;5&quot;&#10;                                Interval=&quot;1&quot;&#10;                                Value=&quot;{Binding Source={x:Static settings:Settings.Columns}, Mode=OneWay}&quot;&#10;                                NumericInputMode=&quot;Numbers&quot;&#10;                                StringFormat=&quot;Число колонок: {0}&quot;&#10;                                ValueChanged=&quot;Columns_OnValueChanged&quot;&#10;                                Grid.Row=&quot;1&quot; /&gt;&#10;        &#10;        &lt;controls:NumericUpDown Minimum=&quot;10&quot;&#10;                                Maximum=&quot;3600&quot;&#10;                                Interval=&quot;5&quot;&#10;                                Value=&quot;{Binding Source={x:Static settings:Settings.UpdateInterval}, Mode=OneWay}&quot;&#10;                                NumericInputMode=&quot;Numbers&quot;&#10;                                StringFormat=&quot;Обновлять цены каждые {0} сек.&quot;&#10;                                ValueChanged=&quot;UpdateInterval_OnValueChanged&quot;&#10;                                Grid.Row=&quot;2&quot; /&gt;&#10;    &lt;/Grid&gt;.../&gt;" />
-                <marker date="1527949332925" expanded="true" signature="861:2545" ph="&lt;&lt;Grid.RowDefinitions&gt;&#10;            &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;            &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;            &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;        &lt;/Grid.RowDefinitions&gt; &lt;controls:NumericUpDown Minimum=&quot;1&quot;&#10;                                Maximum=&quot;8&quot;&#10;                                Interval=&quot;1&quot;&#10;                                Value=&quot;{Binding Source={x:Static settings:Settings.Rows}, Mode=OneWay}&quot;&#10;                                NumericInputMode=&quot;Numbers&quot;&#10;                                StringFormat=&quot;Число строк: {0}&quot;&#10;                                ValueChanged=&quot;Rows_OnValueChanged&quot;&#10;                                Grid.Row=&quot;0&quot; /&gt; &lt;controls:NumericUpDown Minimum=&quot;1&quot;&#10;                                Maximum=&quot;5&quot;&#10;                                Interval=&quot;1&quot;&#10;                                Value=&quot;{Binding Source={x:Static settings:Settings.Columns}, Mode=OneWay}&quot;&#10;                                NumericInputMode=&quot;Numbers&quot;&#10;                                StringFormat=&quot;Число колонок: {0}&quot;&#10;                                ValueChanged=&quot;Columns_OnValueChanged&quot;&#10;                                Grid.Row=&quot;1&quot; /&gt; &lt;controls:NumericUpDown Minimum=&quot;10&quot;&#10;                                Maximum=&quot;3600&quot;&#10;                                Interval=&quot;5&quot;&#10;                                Value=&quot;{Binding Source={x:Static settings:Settings.UpdateInterval}, Mode=OneWay}&quot;&#10;                                NumericInputMode=&quot;Numbers&quot;&#10;                                StringFormat=&quot;Обновлять цены каждые {0} сек.&quot;&#10;                                ValueChanged=&quot;UpdateInterval_OnValueChanged&quot;&#10;                                Grid.Row=&quot;2&quot; /&gt;.../&gt;" />
-                <marker date="1527949332925" expanded="false" signature="876:1051" ph="&lt;&lt;RowDefinition Height=&quot;*&quot; /&gt; &lt;RowDefinition Height=&quot;*&quot; /&gt; &lt;RowDefinition Height=&quot;*&quot; /&gt;.../&gt;" />
-                <marker date="1527949332925" expanded="false" signature="1061:1527" ph="&lt;.../&gt;" />
-                <marker date="1527949332925" expanded="false" signature="1537:2011" ph="&lt;.../&gt;" />
-                <marker date="1527949332925" expanded="false" signature="2029:2533" ph="&lt;.../&gt;" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SettingsWindow.xaml.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Desktop/SettingsWindow.xaml.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="26" column="66" selection-start-line="26" selection-start-column="66" selection-end-line="26" selection-end-column="66" />
-              <folding>
-                <marker date="1527948658617" expanded="true" signature="6:103" ph="..." />
-                <marker date="1527948658617" expanded="true" signature="136:794" ph="{...}" />
-                <marker date="1527948658617" expanded="true" signature="175:792" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Settings.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Desktop/Properties/Settings.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
-              <folding>
-                <marker date="1527949146412" expanded="true" signature="6:125" ph="..." />
-                <marker date="1527949146412" expanded="true" signature="169:1382" ph="{...}" />
-                <marker date="1527949146412" expanded="true" signature="201:1380" ph="{...}" />
-                <marker date="1527949146412" expanded="false" signature="228:327" ph="{...}" />
-                <marker date="1527949146412" expanded="false" signature="357:462" ph="{...}" />
-                <marker date="1527949146412" expanded="false" signature="499:618" ph="{...}" />
-                <marker date="1527949146412" expanded="false" signature="707:1217" ph="{...}" />
-                <marker date="1527949146412" expanded="true" signature="746:886" ph="{...}" />
-                <marker date="1527949146412" expanded="true" signature="886:1213" ph="{...}" />
-                <marker date="1527949146412" expanded="true" signature="946:1207" ph="{...}" />
-                <marker date="1527949146412" expanded="false" signature="1249:1377" ph="{...}" />
+                <marker date="1528010150968" expanded="false" signature="6:180" ph="..." />
+                <marker date="1528010150968" expanded="true" signature="216:1876" ph="{...}" />
+                <marker date="1528010150968" expanded="false" signature="219:261" ph="/// Предмет ... " />
+                <marker date="1528010150968" expanded="true" signature="313:1874" ph="{...}" />
+                <marker date="1528010150968" expanded="false" signature="378:432" ph="/// Название предмета ... " />
+                <marker date="1528010150968" expanded="false" signature="469:561" ph="{...}" />
+                <marker date="1528010150968" expanded="true" signature="495:557" ph="{...}" />
+                <marker date="1528010150968" expanded="false" signature="565:606" ph="/// Цена ... " />
+                <marker date="1528010150968" expanded="false" signature="643:738" ph="{...}" />
+                <marker date="1528010150968" expanded="true" signature="670:734" ph="{...}" />
+                <marker date="1528010150968" expanded="false" signature="742:796" ph="/// Ссылка на предмет ... " />
+                <marker date="1528010150968" expanded="false" signature="818:947" ph="{...}" />
+                <marker date="1528010150968" expanded="true" signature="844:943" ph="{...}" />
+                <marker date="1528010150968" expanded="false" signature="951:1003" ph="/// Иконка предмета ... " />
+                <marker date="1528010150968" expanded="false" signature="1040:1098" ph="{...}" />
+                <marker date="1528010150968" expanded="false" signature="1261:1514" ph="{...}" />
+                <marker date="1528010150968" expanded="true" signature="1282:1480" ph="{...}" />
+                <marker date="1528010150968" expanded="true" signature="1480:1510" ph="{...}" />
+                <marker date="1528010150968" expanded="false" signature="1552:1672" ph="{...}" />
+                <marker date="1528010150968" expanded="true" signature="1573:1628" ph="{...}" />
+                <marker date="1528010150968" expanded="true" signature="1628:1668" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -123,12 +88,12 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Desktop/App.config" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Desktop/MainWindow.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Desktop/MainWindow.xaml" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Desktop/Properties/Resources.resx" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Desktop/Properties/Resources.Designer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/39A675C3-A0A5-4D88-8B5C-807B3B134209/1b/18322f68/Task.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Desktop/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Desktop/Properties/Settings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Desktop/Properties/Settings.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Logic/Data/Price.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Roaming/NuGet/NuGet.Config" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Logic/Data/PWCatsApi.cs" root0="SKIP_HIGHLIGHTING" />
@@ -138,16 +103,16 @@
     <setting file="file://$PROJECT_DIR$/../../VK-BOT/VK-BOT/Apis/PwCats.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Logic/Data/PWCatsResponse.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6FA22D47-ED94-410A-A9E0-113442E2E495/d6/9a02584b/INotifyPropertyChanged.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Desktop/SettingsWindow.xaml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Desktop/SettingsWindow.xaml.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Logic/Data/Item.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Desktop/SettingsWindow.xaml" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Desktop/SettingsWindow.xaml.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Logic/Data/Item.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Desktop/Properties/Annotations.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Desktop/ClickDelegate.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Desktop/ItemCard.xaml" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Desktop/ItemCard.xaml.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Desktop/App.xaml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/39A675C3-A0A5-4D88-8B5C-807B3B134209/c3/62c89286/RuntimeType.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Desktop/MainWindow.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Desktop/MainWindow.xaml.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Desktop/App.xaml.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -163,7 +128,6 @@
         <option value="$PROJECT_DIR$/Desktop/MainWindowModel.cs" />
         <option value="$PROJECT_DIR$/Logic/Data/PWCatsApi.cs" />
         <option value="$PROJECT_DIR$/Desktop/App.xaml" />
-        <option value="$PROJECT_DIR$/Logic/Data/Item.cs" />
         <option value="$PROJECT_DIR$/Desktop/ItemCard.xaml.cs" />
         <option value="$PROJECT_DIR$/Desktop/ItemCard.xaml" />
         <option value="$PROJECT_DIR$/Desktop/DesktopSettings.cs" />
@@ -172,8 +136,9 @@
         <option value="$PROJECT_DIR$/Desktop/SettingsWindow.xaml.cs" />
         <option value="$PROJECT_DIR$/Desktop/Properties/Settings.cs" />
         <option value="$PROJECT_DIR$/Desktop/MainWindow.xaml" />
-        <option value="$PROJECT_DIR$/Desktop/MainWindow.xaml.cs" />
         <option value="$PROJECT_DIR$/Desktop/SettingsWindow.xaml" />
+        <option value="$PROJECT_DIR$/Logic/Data/Item.cs" />
+        <option value="$PROJECT_DIR$/Desktop/MainWindow.xaml.cs" />
       </list>
     </option>
   </component>
@@ -198,6 +163,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -205,24 +171,12 @@
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="PW Cats Viever (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="PW Cats Viever (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Desktop" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="PW Cats Viever (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Desktop" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Properties" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
           </expand>
           <select />
         </subPane>
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -281,11 +235,13 @@
       <workItem from="1527921315671" duration="860000" />
       <workItem from="1527923281804" duration="5646000" />
       <workItem from="1527931229442" duration="18078000" />
+      <workItem from="1527950063886" duration="891000" />
+      <workItem from="1528007574991" duration="1333000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77761000" />
+    <option name="totallyTimeSpent" value="79985000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -336,7 +292,22 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="52" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Desktop/MainWindow.xaml.cs</url>
+          <line>120</line>
+          <properties documentPath="$PROJECT_DIR$/Desktop/MainWindow.xaml.cs" initialLine="120">
+            <startOffsets>
+              <startOffset value="3174" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="3175" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="56" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -373,22 +344,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
-          <folding>
-            <marker date="1527936941286" expanded="true" signature="0:3327" ph="&lt;&lt;Border.Resources&gt;&#10;        &lt;Image x:Key=&quot;Settings&quot; Source=&quot;https://www.materialui.co/materialIcons/action/settings_black_18x18.png&quot; /&gt;&#10;    &lt;/Border.Resources&gt; &lt;Grid&gt;&#10;        &lt;Grid.RowDefinitions&gt;&#10;            &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;            &lt;RowDefinition Height=&quot;3*&quot; /&gt;&#10;            &lt;RowDefinition Height=&quot;2*&quot; /&gt;&#10;        &lt;/Grid.RowDefinitions&gt;&#10;&#10;        &lt;Grid Grid.Row=&quot;0&quot;&gt;&#10;            &lt;Grid.ColumnDefinitions&gt;&#10;                &lt;ColumnDefinition Width=&quot;3*&quot; /&gt;&#10;                &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;            &lt;/Grid.ColumnDefinitions&gt;&#10;&#10;&#10;            &lt;Button Content=&quot;{StaticResource Settings}&quot;&#10;                    HorizontalAlignment=&quot;Right&quot;&#10;                    VerticalAlignment=&quot;Center&quot;&#10;                    Background=&quot;Transparent&quot;&#10;                    BorderThickness=&quot;0&quot;&#10;                    Click=&quot;Button_OnClick&quot;&#10;                    Grid.Column=&quot;1&quot; /&gt;&#10;&#10;        &lt;/Grid&gt;&#10;&#10;&#10;        &lt;TextBox Name=&quot;ItemLink&quot;&#10;                 Text=&quot;{Binding Path=Item.Link, ElementName=Card, Mode=TwoWay}&quot;&#10;                 HorizontalAlignment=&quot;Center&quot;&#10;                 VerticalAlignment=&quot;Center&quot;&#10;                 FontFamily=&quot;Century Gothic&quot;&#10;                 FontSize=&quot;16&quot;&#10;                 Visibility=&quot;Hidden&quot;&#10;                 Grid.Row=&quot;0&quot;&#10;                 Grid.RowSpan=&quot;2&quot; /&gt;&#10;&#10;        &lt;Label Name=&quot;ItemName&quot;&#10;               Content=&quot;{Binding Path=Item.Name, ElementName=Card}&quot;&#10;               HorizontalAlignment=&quot;Center&quot;&#10;               VerticalAlignment=&quot;Center&quot;&#10;               FontFamily=&quot;Century Gothic&quot;&#10;               FontSize=&quot;16&quot;&#10;               Grid.Row=&quot;0&quot;&#10;               Grid.RowSpan=&quot;2&quot; /&gt;&#10;&#10;        &lt;Grid Grid.Row=&quot;2&quot;&gt;&#10;            &lt;Grid.ColumnDefinitions&gt;&#10;                &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;                &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;                &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;            &lt;/Grid.ColumnDefinitions&gt;&#10;&#10;            &lt;Label Content=&quot;{Binding Path=Item.Price.Sell, ElementName=Card}&quot;&#10;                   HorizontalAlignment=&quot;Center&quot;&#10;                   VerticalAlignment=&quot;Center&quot;&#10;                   FontFamily=&quot;Century Gothic&quot;&#10;                   FontSize=&quot;20&quot;&#10;                   Foreground=&quot;Blue&quot;&#10;                   Grid.Column=&quot;0&quot; /&gt;&#10;&#10;            &lt;Image Source=&quot;{Binding Path=Item.Icon, ElementName=Card}&quot;&#10;                   HorizontalAlignment=&quot;Center&quot;&#10;                   VerticalAlignment=&quot;Center&quot;&#10;                   Height=&quot;32&quot;&#10;                   Width=&quot;32&quot;&#10;                   Stretch=&quot;Fill&quot;&#10;                   Grid.Column=&quot;1&quot; /&gt;&#10;&#10;            &lt;Label Content=&quot;{Binding Path=Item.Price.Buy, ElementName=Card}&quot;&#10;                   HorizontalAlignment=&quot;Center&quot;&#10;                   VerticalAlignment=&quot;Center&quot;&#10;                   FontFamily=&quot;Century Gothic&quot;&#10;                   FontSize=&quot;20&quot;&#10;                   Foreground=&quot;Maroon&quot;&#10;                   Grid.Column=&quot;2&quot; /&gt;&#10;        &lt;/Grid&gt;&#10;    &lt;/Grid&gt;.../&gt;" />
-            <marker date="1527936941286" expanded="true" signature="490:648" ph="&lt;&lt;Image x:Key=&quot;Settings&quot; Source=&quot;https://www.materialui.co/materialIcons/action/settings_black_18x18.png&quot; /&gt;.../&gt;" />
-            <marker date="1527936941286" expanded="true" signature="654:3317" ph="&lt;&lt;Grid.RowDefinitions&gt;&#10;            &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;            &lt;RowDefinition Height=&quot;3*&quot; /&gt;&#10;            &lt;RowDefinition Height=&quot;2*&quot; /&gt;&#10;        &lt;/Grid.RowDefinitions&gt; &lt;Grid Grid.Row=&quot;0&quot;&gt;&#10;            &lt;Grid.ColumnDefinitions&gt;&#10;                &lt;ColumnDefinition Width=&quot;3*&quot; /&gt;&#10;                &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;            &lt;/Grid.ColumnDefinitions&gt;&#10;&#10;&#10;            &lt;Button Content=&quot;{StaticResource Settings}&quot;&#10;                    HorizontalAlignment=&quot;Right&quot;&#10;                    VerticalAlignment=&quot;Center&quot;&#10;                    Background=&quot;Transparent&quot;&#10;                    BorderThickness=&quot;0&quot;&#10;                    Click=&quot;Button_OnClick&quot;&#10;                    Grid.Column=&quot;1&quot; /&gt;&#10;&#10;        &lt;/Grid&gt; &lt;TextBox Name=&quot;ItemLink&quot;&#10;                 Text=&quot;{Binding Path=Item.Link, ElementName=Card, Mode=TwoWay}&quot;&#10;                 HorizontalAlignment=&quot;Center&quot;&#10;                 VerticalAlignment=&quot;Center&quot;&#10;                 FontFamily=&quot;Century Gothic&quot;&#10;                 FontSize=&quot;16&quot;&#10;                 Visibility=&quot;Hidden&quot;&#10;                 Grid.Row=&quot;0&quot;&#10;                 Grid.RowSpan=&quot;2&quot; /&gt; &lt;Label Name=&quot;ItemName&quot;&#10;               Content=&quot;{Binding Path=Item.Name, ElementName=Card}&quot;&#10;               HorizontalAlignment=&quot;Center&quot;&#10;               VerticalAlignment=&quot;Center&quot;&#10;               FontFamily=&quot;Century Gothic&quot;&#10;               FontSize=&quot;16&quot;&#10;               Grid.Row=&quot;0&quot;&#10;               Grid.RowSpan=&quot;2&quot; /&gt; &lt;Grid Grid.Row=&quot;2&quot;&gt;&#10;            &lt;Grid.ColumnDefinitions&gt;&#10;                &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;                &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;                &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;            &lt;/Grid.ColumnDefinitions&gt;&#10;&#10;            &lt;Label Content=&quot;{Binding Path=Item.Price.Sell, ElementName=Card}&quot;&#10;                   HorizontalAlignment=&quot;Center&quot;&#10;                   VerticalAlignment=&quot;Center&quot;&#10;                   FontFamily=&quot;Century Gothic&quot;&#10;                   FontSize=&quot;20&quot;&#10;                   Foreground=&quot;Blue&quot;&#10;                   Grid.Column=&quot;0&quot; /&gt;&#10;&#10;            &lt;Image Source=&quot;{Binding Path=Item.Icon, ElementName=Card}&quot;&#10;                   HorizontalAlignment=&quot;Center&quot;&#10;                   VerticalAlignment=&quot;Center&quot;&#10;                   Height=&quot;32&quot;&#10;                   Width=&quot;32&quot;&#10;                   Stretch=&quot;Fill&quot;&#10;                   Grid.Column=&quot;1&quot; /&gt;&#10;&#10;            &lt;Label Content=&quot;{Binding Path=Item.Price.Buy, ElementName=Card}&quot;&#10;                   HorizontalAlignment=&quot;Center&quot;&#10;                   VerticalAlignment=&quot;Center&quot;&#10;                   FontFamily=&quot;Century Gothic&quot;&#10;                   FontSize=&quot;20&quot;&#10;                   Foreground=&quot;Maroon&quot;&#10;                   Grid.Column=&quot;2&quot; /&gt;&#10;        &lt;/Grid&gt;.../&gt;" />
-            <marker date="1527936941286" expanded="true" signature="669:846" ph="&lt;&lt;RowDefinition Height=&quot;*&quot; /&gt; &lt;RowDefinition Height=&quot;3*&quot; /&gt; &lt;RowDefinition Height=&quot;2*&quot; /&gt;.../&gt;" />
-            <marker date="1527936941286" expanded="false" signature="856:1382" ph="&lt;&lt;Grid.ColumnDefinitions&gt;&#10;                &lt;ColumnDefinition Width=&quot;3*&quot; /&gt;&#10;                &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;            &lt;/Grid.ColumnDefinitions&gt; &lt;Button Content=&quot;{StaticResource Settings}&quot;&#10;                    HorizontalAlignment=&quot;Right&quot;&#10;                    VerticalAlignment=&quot;Center&quot;&#10;                    Background=&quot;Transparent&quot;&#10;                    BorderThickness=&quot;0&quot;&#10;                    Click=&quot;Button_OnClick&quot;&#10;                    Grid.Column=&quot;1&quot; /&gt;.../&gt;" />
-            <marker date="1527936941286" expanded="true" signature="888:1045" ph="&lt;&lt;ColumnDefinition Width=&quot;3*&quot; /&gt; &lt;ColumnDefinition Width=&quot;*&quot; /&gt;.../&gt;" />
-            <marker date="1527936941286" expanded="true" signature="1060:1365" ph="&lt;.../&gt;" />
-            <marker date="1527936941286" expanded="false" signature="1393:1767" ph="&lt;.../&gt;" />
-            <marker date="1527936941286" expanded="false" signature="1777:2088" ph="&lt;.../&gt;" />
-            <marker date="1527936941286" expanded="false" signature="2098:3305" ph="&lt;&lt;Grid.ColumnDefinitions&gt;&#10;                &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;                &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;                &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;            &lt;/Grid.ColumnDefinitions&gt; &lt;Label Content=&quot;{Binding Path=Item.Price.Sell, ElementName=Card}&quot;&#10;                   HorizontalAlignment=&quot;Center&quot;&#10;                   VerticalAlignment=&quot;Center&quot;&#10;                   FontFamily=&quot;Century Gothic&quot;&#10;                   FontSize=&quot;20&quot;&#10;                   Foreground=&quot;Blue&quot;&#10;                   Grid.Column=&quot;0&quot; /&gt; &lt;Image Source=&quot;{Binding Path=Item.Icon, ElementName=Card}&quot;&#10;                   HorizontalAlignment=&quot;Center&quot;&#10;                   VerticalAlignment=&quot;Center&quot;&#10;                   Height=&quot;32&quot;&#10;                   Width=&quot;32&quot;&#10;                   Stretch=&quot;Fill&quot;&#10;                   Grid.Column=&quot;1&quot; /&gt; &lt;Label Content=&quot;{Binding Path=Item.Price.Buy, ElementName=Card}&quot;&#10;                   HorizontalAlignment=&quot;Center&quot;&#10;                   VerticalAlignment=&quot;Center&quot;&#10;                   FontFamily=&quot;Century Gothic&quot;&#10;                   FontSize=&quot;20&quot;&#10;                   Foreground=&quot;Maroon&quot;&#10;                   Grid.Column=&quot;2&quot; /&gt;.../&gt;" />
-            <marker date="1527936941286" expanded="false" signature="2130:2333" ph="&lt;&lt;ColumnDefinition Width=&quot;*&quot; /&gt; &lt;ColumnDefinition Width=&quot;*&quot; /&gt; &lt;ColumnDefinition Width=&quot;*&quot; /&gt;.../&gt;" />
-            <marker date="1527936941286" expanded="false" signature="2347:2661" ph="&lt;.../&gt;" />
-            <marker date="1527936941286" expanded="false" signature="2675:2960" ph="&lt;.../&gt;" />
-            <marker date="1527936941286" expanded="false" signature="2974:3289" ph="&lt;.../&gt;" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -397,28 +352,28 @@
         <state relative-caret-position="1080">
           <caret line="81" selection-start-line="81" selection-end-line="81" />
           <folding>
-            <marker date="1527949318698" expanded="true" signature="6:433" ph="..." />
-            <marker date="1527949318698" expanded="true" signature="466:4011" ph="{...}" />
-            <marker date="1527949318698" expanded="false" signature="469:541" ph="/// Interaction logic for MainWindow.xaml ... " />
-            <marker date="1527949318698" expanded="true" signature="575:4009" ph="{...}" />
-            <marker date="1527949318698" expanded="false" signature="579:624" ph="/// Предметы ... " />
-            <marker date="1527949318698" expanded="false" signature="729:1176" ph="{...}" />
-            <marker date="1527949318698" expanded="true" signature="930:1172" ph="{...}" />
-            <marker date="1527949318698" expanded="true" signature="994:1167" ph="{...}" />
-            <marker date="1527949318698" expanded="false" signature="1251:2690" ph="{...}" />
-            <marker date="1527949318698" expanded="false" signature="1333:2226" ph="{...}" />
-            <marker date="1527949318698" expanded="true" signature="1370:1489" ph="{...}" />
-            <marker date="1527949318698" expanded="true" signature="1517:2220" ph="{...}" />
-            <marker date="1527949318698" expanded="false" signature="2270:2434" ph="{...}" />
-            <marker date="1527949318698" expanded="true" signature="2333:2399" ph="{...}" />
-            <marker date="1527949318698" expanded="true" signature="2410:2429" ph="{...}" />
-            <marker date="1527949318698" expanded="false" signature="2460:2597" ph="{...}" />
-            <marker date="1527949318698" expanded="false" signature="2757:2825" ph="{...}" />
-            <marker date="1527949318698" expanded="true" signature="2791:2821" ph="{...}" />
-            <marker date="1527949318698" expanded="false" signature="2875:3534" ph="{...}" />
-            <marker date="1527949318698" expanded="true" signature="3007:3218" ph="{...}" />
-            <marker date="1527949318698" expanded="false" signature="3597:3718" ph="{...}" />
-            <marker date="1527949318698" expanded="true" signature="3786:4006" ph="{...}" />
+            <marker date="1528010113779" expanded="false" signature="6:352" ph="..." />
+            <marker date="1528010113779" expanded="true" signature="385:3399" ph="{...}" />
+            <marker date="1528010113779" expanded="false" signature="388:460" ph="/// Interaction logic for MainWindow.xaml ... " />
+            <marker date="1528010113779" expanded="true" signature="494:3397" ph="{...}" />
+            <marker date="1528010113779" expanded="false" signature="498:543" ph="/// Предметы ... " />
+            <marker date="1528010113779" expanded="false" signature="648:1123" ph="{...}" />
+            <marker date="1528010113779" expanded="false" signature="849:1119" ph="{...}" />
+            <marker date="1528010113779" expanded="true" signature="913:1114" ph="{...}" />
+            <marker date="1528010113779" expanded="false" signature="1198:2067" ph="{...}" />
+            <marker date="1528010113779" expanded="false" signature="1280:1593" ph="{...}" />
+            <marker date="1528010113779" expanded="true" signature="1352:1473" ph="{...}" />
+            <marker date="1528010113779" expanded="true" signature="1532:1568" ph="{...}" />
+            <marker date="1528010113779" expanded="true" signature="1637:1811" ph="{...}" />
+            <marker date="1528010113779" expanded="true" signature="1710:1776" ph="{...}" />
+            <marker date="1528010113779" expanded="true" signature="1787:1806" ph="{...}" />
+            <marker date="1528010113779" expanded="false" signature="1837:1974" ph="{...}" />
+            <marker date="1528010113779" expanded="false" signature="2134:2202" ph="{...}" />
+            <marker date="1528010113779" expanded="true" signature="2168:2198" ph="{...}" />
+            <marker date="1528010113779" expanded="false" signature="2259:2922" ph="{...}" />
+            <marker date="1528010113779" expanded="true" signature="2391:2602" ph="{...}" />
+            <marker date="1528010113779" expanded="false" signature="2985:3106" ph="{...}" />
+            <marker date="1528010113779" expanded="false" signature="3174:3394" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -428,28 +383,28 @@
         <state relative-caret-position="300">
           <caret line="86" column="9" lean-forward="true" selection-start-line="86" selection-start-column="9" selection-end-line="86" selection-end-column="9" />
           <folding>
-            <marker date="1527949318698" expanded="true" signature="6:433" ph="..." />
-            <marker date="1527949318698" expanded="true" signature="466:4011" ph="{...}" />
-            <marker date="1527949318698" expanded="false" signature="469:541" ph="/// Interaction logic for MainWindow.xaml ... " />
-            <marker date="1527949318698" expanded="true" signature="575:4009" ph="{...}" />
-            <marker date="1527949318698" expanded="false" signature="579:624" ph="/// Предметы ... " />
-            <marker date="1527949318698" expanded="false" signature="729:1176" ph="{...}" />
-            <marker date="1527949318698" expanded="true" signature="930:1172" ph="{...}" />
-            <marker date="1527949318698" expanded="true" signature="994:1167" ph="{...}" />
-            <marker date="1527949318698" expanded="false" signature="1251:2690" ph="{...}" />
-            <marker date="1527949318698" expanded="false" signature="1333:2226" ph="{...}" />
-            <marker date="1527949318698" expanded="true" signature="1370:1489" ph="{...}" />
-            <marker date="1527949318698" expanded="true" signature="1517:2220" ph="{...}" />
-            <marker date="1527949318698" expanded="false" signature="2270:2434" ph="{...}" />
-            <marker date="1527949318698" expanded="true" signature="2333:2399" ph="{...}" />
-            <marker date="1527949318698" expanded="true" signature="2410:2429" ph="{...}" />
-            <marker date="1527949318698" expanded="false" signature="2460:2597" ph="{...}" />
-            <marker date="1527949318698" expanded="false" signature="2757:2825" ph="{...}" />
-            <marker date="1527949318698" expanded="true" signature="2791:2821" ph="{...}" />
-            <marker date="1527949318698" expanded="false" signature="2875:3534" ph="{...}" />
-            <marker date="1527949318698" expanded="true" signature="3007:3218" ph="{...}" />
-            <marker date="1527949318698" expanded="false" signature="3597:3718" ph="{...}" />
-            <marker date="1527949318698" expanded="true" signature="3786:4006" ph="{...}" />
+            <marker date="1528010113779" expanded="false" signature="6:352" ph="..." />
+            <marker date="1528010113779" expanded="true" signature="385:3399" ph="{...}" />
+            <marker date="1528010113779" expanded="false" signature="388:460" ph="/// Interaction logic for MainWindow.xaml ... " />
+            <marker date="1528010113779" expanded="true" signature="494:3397" ph="{...}" />
+            <marker date="1528010113779" expanded="false" signature="498:543" ph="/// Предметы ... " />
+            <marker date="1528010113779" expanded="false" signature="648:1123" ph="{...}" />
+            <marker date="1528010113779" expanded="false" signature="849:1119" ph="{...}" />
+            <marker date="1528010113779" expanded="true" signature="913:1114" ph="{...}" />
+            <marker date="1528010113779" expanded="false" signature="1198:2067" ph="{...}" />
+            <marker date="1528010113779" expanded="false" signature="1280:1593" ph="{...}" />
+            <marker date="1528010113779" expanded="true" signature="1352:1473" ph="{...}" />
+            <marker date="1528010113779" expanded="true" signature="1532:1568" ph="{...}" />
+            <marker date="1528010113779" expanded="true" signature="1637:1811" ph="{...}" />
+            <marker date="1528010113779" expanded="true" signature="1710:1776" ph="{...}" />
+            <marker date="1528010113779" expanded="true" signature="1787:1806" ph="{...}" />
+            <marker date="1528010113779" expanded="false" signature="1837:1974" ph="{...}" />
+            <marker date="1528010113779" expanded="false" signature="2134:2202" ph="{...}" />
+            <marker date="1528010113779" expanded="true" signature="2168:2198" ph="{...}" />
+            <marker date="1528010113779" expanded="false" signature="2259:2922" ph="{...}" />
+            <marker date="1528010113779" expanded="true" signature="2391:2602" ph="{...}" />
+            <marker date="1528010113779" expanded="false" signature="2985:3106" ph="{...}" />
+            <marker date="1528010113779" expanded="false" signature="3174:3394" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -474,28 +429,28 @@
         <state relative-caret-position="225">
           <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
           <folding>
-            <marker date="1527949318698" expanded="true" signature="6:433" ph="..." />
-            <marker date="1527949318698" expanded="true" signature="466:4011" ph="{...}" />
-            <marker date="1527949318698" expanded="false" signature="469:541" ph="/// Interaction logic for MainWindow.xaml ... " />
-            <marker date="1527949318698" expanded="true" signature="575:4009" ph="{...}" />
-            <marker date="1527949318698" expanded="false" signature="579:624" ph="/// Предметы ... " />
-            <marker date="1527949318698" expanded="false" signature="729:1176" ph="{...}" />
-            <marker date="1527949318698" expanded="true" signature="930:1172" ph="{...}" />
-            <marker date="1527949318698" expanded="true" signature="994:1167" ph="{...}" />
-            <marker date="1527949318698" expanded="false" signature="1251:2690" ph="{...}" />
-            <marker date="1527949318698" expanded="false" signature="1333:2226" ph="{...}" />
-            <marker date="1527949318698" expanded="true" signature="1370:1489" ph="{...}" />
-            <marker date="1527949318698" expanded="true" signature="1517:2220" ph="{...}" />
-            <marker date="1527949318698" expanded="false" signature="2270:2434" ph="{...}" />
-            <marker date="1527949318698" expanded="true" signature="2333:2399" ph="{...}" />
-            <marker date="1527949318698" expanded="true" signature="2410:2429" ph="{...}" />
-            <marker date="1527949318698" expanded="false" signature="2460:2597" ph="{...}" />
-            <marker date="1527949318698" expanded="false" signature="2757:2825" ph="{...}" />
-            <marker date="1527949318698" expanded="true" signature="2791:2821" ph="{...}" />
-            <marker date="1527949318698" expanded="false" signature="2875:3534" ph="{...}" />
-            <marker date="1527949318698" expanded="true" signature="3007:3218" ph="{...}" />
-            <marker date="1527949318698" expanded="false" signature="3597:3718" ph="{...}" />
-            <marker date="1527949318698" expanded="true" signature="3786:4006" ph="{...}" />
+            <marker date="1528010113779" expanded="false" signature="6:352" ph="..." />
+            <marker date="1528010113779" expanded="true" signature="385:3399" ph="{...}" />
+            <marker date="1528010113779" expanded="false" signature="388:460" ph="/// Interaction logic for MainWindow.xaml ... " />
+            <marker date="1528010113779" expanded="true" signature="494:3397" ph="{...}" />
+            <marker date="1528010113779" expanded="false" signature="498:543" ph="/// Предметы ... " />
+            <marker date="1528010113779" expanded="false" signature="648:1123" ph="{...}" />
+            <marker date="1528010113779" expanded="false" signature="849:1119" ph="{...}" />
+            <marker date="1528010113779" expanded="true" signature="913:1114" ph="{...}" />
+            <marker date="1528010113779" expanded="false" signature="1198:2067" ph="{...}" />
+            <marker date="1528010113779" expanded="false" signature="1280:1593" ph="{...}" />
+            <marker date="1528010113779" expanded="true" signature="1352:1473" ph="{...}" />
+            <marker date="1528010113779" expanded="true" signature="1532:1568" ph="{...}" />
+            <marker date="1528010113779" expanded="true" signature="1637:1811" ph="{...}" />
+            <marker date="1528010113779" expanded="true" signature="1710:1776" ph="{...}" />
+            <marker date="1528010113779" expanded="true" signature="1787:1806" ph="{...}" />
+            <marker date="1528010113779" expanded="false" signature="1837:1974" ph="{...}" />
+            <marker date="1528010113779" expanded="false" signature="2134:2202" ph="{...}" />
+            <marker date="1528010113779" expanded="true" signature="2168:2198" ph="{...}" />
+            <marker date="1528010113779" expanded="false" signature="2259:2922" ph="{...}" />
+            <marker date="1528010113779" expanded="true" signature="2391:2602" ph="{...}" />
+            <marker date="1528010113779" expanded="false" signature="2985:3106" ph="{...}" />
+            <marker date="1528010113779" expanded="false" signature="3174:3394" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -648,44 +603,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
-          <folding>
-            <marker date="1527924631937" expanded="false" signature="6:205" ph="..." />
-            <marker date="1527924631937" expanded="true" signature="274:1706" ph="{...}" />
-            <marker date="1527924631937" expanded="false" signature="519:1104" ph="{...}" />
-            <marker date="1527924631937" expanded="false" signature="1145:1320" ph="{...}" />
-            <marker date="1527924631937" expanded="false" signature="1358:1703" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Logic/Data/Item.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-73">
-          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
-          <folding>
-            <marker date="1527935748938" expanded="true" signature="6:192" ph="..." />
-            <marker date="1527935748938" expanded="true" signature="228:1992" ph="{...}" />
-            <marker date="1527935748938" expanded="true" signature="231:273" ph="/// Предмет ... " />
-            <marker date="1527935748938" expanded="true" signature="318:1990" ph="{...}" />
-            <marker date="1527935748938" expanded="true" signature="383:437" ph="/// Название предмета ... " />
-            <marker date="1527935748938" expanded="true" signature="459:551" ph="{...}" />
-            <marker date="1527935748938" expanded="true" signature="485:547" ph="{...}" />
-            <marker date="1527935748938" expanded="false" signature="555:596" ph="/// Цена ... " />
-            <marker date="1527935748938" expanded="false" signature="618:713" ph="{...}" />
-            <marker date="1527935748938" expanded="true" signature="645:709" ph="{...}" />
-            <marker date="1527935748938" expanded="false" signature="717:771" ph="/// Ссылка на предмет ... " />
-            <marker date="1527935748938" expanded="true" signature="793:922" ph="{...}" />
-            <marker date="1527935748938" expanded="true" signature="819:918" ph="{...}" />
-            <marker date="1527935748938" expanded="false" signature="926:978" ph="/// Иконка предмета ... " />
-            <marker date="1527935748938" expanded="false" signature="1000:1058" ph="{...}" />
-            <marker date="1527935748938" expanded="false" signature="1157:1253" ph="/// Предмет ... " />
-            <marker date="1527935748938" expanded="false" signature="1367:1620" ph="{...}" />
-            <marker date="1527935748938" expanded="true" signature="1388:1586" ph="{...}" />
-            <marker date="1527935748938" expanded="true" signature="1586:1616" ph="{...}" />
-            <marker date="1527935748938" expanded="false" signature="1658:1778" ph="{...}" />
-            <marker date="1527935748938" expanded="true" signature="1679:1734" ph="{...}" />
-            <marker date="1527935748938" expanded="true" signature="1734:1774" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -693,22 +610,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="39" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <marker date="1527936941286" expanded="true" signature="0:3327" ph="&lt;&lt;Border.Resources&gt;&#10;        &lt;Image x:Key=&quot;Settings&quot; Source=&quot;https://www.materialui.co/materialIcons/action/settings_black_18x18.png&quot; /&gt;&#10;    &lt;/Border.Resources&gt; &lt;Grid&gt;&#10;        &lt;Grid.RowDefinitions&gt;&#10;            &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;            &lt;RowDefinition Height=&quot;3*&quot; /&gt;&#10;            &lt;RowDefinition Height=&quot;2*&quot; /&gt;&#10;        &lt;/Grid.RowDefinitions&gt;&#10;&#10;        &lt;Grid Grid.Row=&quot;0&quot;&gt;&#10;            &lt;Grid.ColumnDefinitions&gt;&#10;                &lt;ColumnDefinition Width=&quot;3*&quot; /&gt;&#10;                &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;            &lt;/Grid.ColumnDefinitions&gt;&#10;&#10;&#10;            &lt;Button Content=&quot;{StaticResource Settings}&quot;&#10;                    HorizontalAlignment=&quot;Right&quot;&#10;                    VerticalAlignment=&quot;Center&quot;&#10;                    Background=&quot;Transparent&quot;&#10;                    BorderThickness=&quot;0&quot;&#10;                    Click=&quot;Button_OnClick&quot;&#10;                    Grid.Column=&quot;1&quot; /&gt;&#10;&#10;        &lt;/Grid&gt;&#10;&#10;&#10;        &lt;TextBox Name=&quot;ItemLink&quot;&#10;                 Text=&quot;{Binding Path=Item.Link, ElementName=Card, Mode=TwoWay}&quot;&#10;                 HorizontalAlignment=&quot;Center&quot;&#10;                 VerticalAlignment=&quot;Center&quot;&#10;                 FontFamily=&quot;Century Gothic&quot;&#10;                 FontSize=&quot;16&quot;&#10;                 Visibility=&quot;Hidden&quot;&#10;                 Grid.Row=&quot;0&quot;&#10;                 Grid.RowSpan=&quot;2&quot; /&gt;&#10;&#10;        &lt;Label Name=&quot;ItemName&quot;&#10;               Content=&quot;{Binding Path=Item.Name, ElementName=Card}&quot;&#10;               HorizontalAlignment=&quot;Center&quot;&#10;               VerticalAlignment=&quot;Center&quot;&#10;               FontFamily=&quot;Century Gothic&quot;&#10;               FontSize=&quot;16&quot;&#10;               Grid.Row=&quot;0&quot;&#10;               Grid.RowSpan=&quot;2&quot; /&gt;&#10;&#10;        &lt;Grid Grid.Row=&quot;2&quot;&gt;&#10;            &lt;Grid.ColumnDefinitions&gt;&#10;                &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;                &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;                &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;            &lt;/Grid.ColumnDefinitions&gt;&#10;&#10;            &lt;Label Content=&quot;{Binding Path=Item.Price.Sell, ElementName=Card}&quot;&#10;                   HorizontalAlignment=&quot;Center&quot;&#10;                   VerticalAlignment=&quot;Center&quot;&#10;                   FontFamily=&quot;Century Gothic&quot;&#10;                   FontSize=&quot;20&quot;&#10;                   Foreground=&quot;Blue&quot;&#10;                   Grid.Column=&quot;0&quot; /&gt;&#10;&#10;            &lt;Image Source=&quot;{Binding Path=Item.Icon, ElementName=Card}&quot;&#10;                   HorizontalAlignment=&quot;Center&quot;&#10;                   VerticalAlignment=&quot;Center&quot;&#10;                   Height=&quot;32&quot;&#10;                   Width=&quot;32&quot;&#10;                   Stretch=&quot;Fill&quot;&#10;                   Grid.Column=&quot;1&quot; /&gt;&#10;&#10;            &lt;Label Content=&quot;{Binding Path=Item.Price.Buy, ElementName=Card}&quot;&#10;                   HorizontalAlignment=&quot;Center&quot;&#10;                   VerticalAlignment=&quot;Center&quot;&#10;                   FontFamily=&quot;Century Gothic&quot;&#10;                   FontSize=&quot;20&quot;&#10;                   Foreground=&quot;Maroon&quot;&#10;                   Grid.Column=&quot;2&quot; /&gt;&#10;        &lt;/Grid&gt;&#10;    &lt;/Grid&gt;.../&gt;" />
-            <marker date="1527936941286" expanded="true" signature="490:648" ph="&lt;&lt;Image x:Key=&quot;Settings&quot; Source=&quot;https://www.materialui.co/materialIcons/action/settings_black_18x18.png&quot; /&gt;.../&gt;" />
-            <marker date="1527936941286" expanded="true" signature="654:3317" ph="&lt;&lt;Grid.RowDefinitions&gt;&#10;            &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;            &lt;RowDefinition Height=&quot;3*&quot; /&gt;&#10;            &lt;RowDefinition Height=&quot;2*&quot; /&gt;&#10;        &lt;/Grid.RowDefinitions&gt; &lt;Grid Grid.Row=&quot;0&quot;&gt;&#10;            &lt;Grid.ColumnDefinitions&gt;&#10;                &lt;ColumnDefinition Width=&quot;3*&quot; /&gt;&#10;                &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;            &lt;/Grid.ColumnDefinitions&gt;&#10;&#10;&#10;            &lt;Button Content=&quot;{StaticResource Settings}&quot;&#10;                    HorizontalAlignment=&quot;Right&quot;&#10;                    VerticalAlignment=&quot;Center&quot;&#10;                    Background=&quot;Transparent&quot;&#10;                    BorderThickness=&quot;0&quot;&#10;                    Click=&quot;Button_OnClick&quot;&#10;                    Grid.Column=&quot;1&quot; /&gt;&#10;&#10;        &lt;/Grid&gt; &lt;TextBox Name=&quot;ItemLink&quot;&#10;                 Text=&quot;{Binding Path=Item.Link, ElementName=Card, Mode=TwoWay}&quot;&#10;                 HorizontalAlignment=&quot;Center&quot;&#10;                 VerticalAlignment=&quot;Center&quot;&#10;                 FontFamily=&quot;Century Gothic&quot;&#10;                 FontSize=&quot;16&quot;&#10;                 Visibility=&quot;Hidden&quot;&#10;                 Grid.Row=&quot;0&quot;&#10;                 Grid.RowSpan=&quot;2&quot; /&gt; &lt;Label Name=&quot;ItemName&quot;&#10;               Content=&quot;{Binding Path=Item.Name, ElementName=Card}&quot;&#10;               HorizontalAlignment=&quot;Center&quot;&#10;               VerticalAlignment=&quot;Center&quot;&#10;               FontFamily=&quot;Century Gothic&quot;&#10;               FontSize=&quot;16&quot;&#10;               Grid.Row=&quot;0&quot;&#10;               Grid.RowSpan=&quot;2&quot; /&gt; &lt;Grid Grid.Row=&quot;2&quot;&gt;&#10;            &lt;Grid.ColumnDefinitions&gt;&#10;                &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;                &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;                &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;            &lt;/Grid.ColumnDefinitions&gt;&#10;&#10;            &lt;Label Content=&quot;{Binding Path=Item.Price.Sell, ElementName=Card}&quot;&#10;                   HorizontalAlignment=&quot;Center&quot;&#10;                   VerticalAlignment=&quot;Center&quot;&#10;                   FontFamily=&quot;Century Gothic&quot;&#10;                   FontSize=&quot;20&quot;&#10;                   Foreground=&quot;Blue&quot;&#10;                   Grid.Column=&quot;0&quot; /&gt;&#10;&#10;            &lt;Image Source=&quot;{Binding Path=Item.Icon, ElementName=Card}&quot;&#10;                   HorizontalAlignment=&quot;Center&quot;&#10;                   VerticalAlignment=&quot;Center&quot;&#10;                   Height=&quot;32&quot;&#10;                   Width=&quot;32&quot;&#10;                   Stretch=&quot;Fill&quot;&#10;                   Grid.Column=&quot;1&quot; /&gt;&#10;&#10;            &lt;Label Content=&quot;{Binding Path=Item.Price.Buy, ElementName=Card}&quot;&#10;                   HorizontalAlignment=&quot;Center&quot;&#10;                   VerticalAlignment=&quot;Center&quot;&#10;                   FontFamily=&quot;Century Gothic&quot;&#10;                   FontSize=&quot;20&quot;&#10;                   Foreground=&quot;Maroon&quot;&#10;                   Grid.Column=&quot;2&quot; /&gt;&#10;        &lt;/Grid&gt;.../&gt;" />
-            <marker date="1527936941286" expanded="true" signature="669:846" ph="&lt;&lt;RowDefinition Height=&quot;*&quot; /&gt; &lt;RowDefinition Height=&quot;3*&quot; /&gt; &lt;RowDefinition Height=&quot;2*&quot; /&gt;.../&gt;" />
-            <marker date="1527936941286" expanded="false" signature="856:1382" ph="&lt;&lt;Grid.ColumnDefinitions&gt;&#10;                &lt;ColumnDefinition Width=&quot;3*&quot; /&gt;&#10;                &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;            &lt;/Grid.ColumnDefinitions&gt; &lt;Button Content=&quot;{StaticResource Settings}&quot;&#10;                    HorizontalAlignment=&quot;Right&quot;&#10;                    VerticalAlignment=&quot;Center&quot;&#10;                    Background=&quot;Transparent&quot;&#10;                    BorderThickness=&quot;0&quot;&#10;                    Click=&quot;Button_OnClick&quot;&#10;                    Grid.Column=&quot;1&quot; /&gt;.../&gt;" />
-            <marker date="1527936941286" expanded="true" signature="888:1045" ph="&lt;&lt;ColumnDefinition Width=&quot;3*&quot; /&gt; &lt;ColumnDefinition Width=&quot;*&quot; /&gt;.../&gt;" />
-            <marker date="1527936941286" expanded="true" signature="1060:1365" ph="&lt;.../&gt;" />
-            <marker date="1527936941286" expanded="false" signature="1393:1767" ph="&lt;.../&gt;" />
-            <marker date="1527936941286" expanded="false" signature="1777:2088" ph="&lt;.../&gt;" />
-            <marker date="1527936941286" expanded="false" signature="2098:3305" ph="&lt;&lt;Grid.ColumnDefinitions&gt;&#10;                &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;                &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;                &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;            &lt;/Grid.ColumnDefinitions&gt; &lt;Label Content=&quot;{Binding Path=Item.Price.Sell, ElementName=Card}&quot;&#10;                   HorizontalAlignment=&quot;Center&quot;&#10;                   VerticalAlignment=&quot;Center&quot;&#10;                   FontFamily=&quot;Century Gothic&quot;&#10;                   FontSize=&quot;20&quot;&#10;                   Foreground=&quot;Blue&quot;&#10;                   Grid.Column=&quot;0&quot; /&gt; &lt;Image Source=&quot;{Binding Path=Item.Icon, ElementName=Card}&quot;&#10;                   HorizontalAlignment=&quot;Center&quot;&#10;                   VerticalAlignment=&quot;Center&quot;&#10;                   Height=&quot;32&quot;&#10;                   Width=&quot;32&quot;&#10;                   Stretch=&quot;Fill&quot;&#10;                   Grid.Column=&quot;1&quot; /&gt; &lt;Label Content=&quot;{Binding Path=Item.Price.Buy, ElementName=Card}&quot;&#10;                   HorizontalAlignment=&quot;Center&quot;&#10;                   VerticalAlignment=&quot;Center&quot;&#10;                   FontFamily=&quot;Century Gothic&quot;&#10;                   FontSize=&quot;20&quot;&#10;                   Foreground=&quot;Maroon&quot;&#10;                   Grid.Column=&quot;2&quot; /&gt;.../&gt;" />
-            <marker date="1527936941286" expanded="false" signature="2130:2333" ph="&lt;&lt;ColumnDefinition Width=&quot;*&quot; /&gt; &lt;ColumnDefinition Width=&quot;*&quot; /&gt; &lt;ColumnDefinition Width=&quot;*&quot; /&gt;.../&gt;" />
-            <marker date="1527936941286" expanded="false" signature="2347:2661" ph="&lt;.../&gt;" />
-            <marker date="1527936941286" expanded="false" signature="2675:2960" ph="&lt;.../&gt;" />
-            <marker date="1527936941286" expanded="false" signature="2974:3289" ph="&lt;.../&gt;" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -716,197 +617,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="35" column="57" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
-          <folding>
-            <marker date="1527941548597" expanded="true" signature="6:52" ph="..." />
-            <marker date="1527941548597" expanded="true" signature="85:809" ph="{...}" />
-            <marker date="1527941548597" expanded="true" signature="118:807" ph="{...}" />
-            <marker date="1527941548597" expanded="false" signature="139:226" ph="{...}" />
-            <marker date="1527941548597" expanded="false" signature="276:328" ph="{...}" />
-            <marker date="1527941548597" expanded="true" signature="534:804" ph="{...}" />
-            <marker date="1527941548597" expanded="true" signature="554:672" ph="{...}" />
-            <marker date="1527941548597" expanded="true" signature="672:800" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Desktop/Properties/AssemblyInfo.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
-          <folding>
-            <marker date="1527941548488" expanded="false" signature="6:84" ph="..." />
-            <marker date="1527941548488" expanded="true" signature="86:272" ph="/* General Information about an assembly is controlled through the following ... */" />
-            <marker date="1527941548488" expanded="true" signature="573:781" ph="/* Setting ComVisible to false makes the types in this assembly not visible ... */" />
-            <marker date="1527941548488" expanded="true" signature="813:1313" ph="/* In order to begin building localizable applications, set ... */" />
-            <marker date="1527941548488" expanded="true" signature="1316:1719" ph="[assembly]" />
-            <marker date="1527941548488" expanded="true" signature="1372:1519" ph="/* where theme specific resource dictionaries are located ... */" />
-            <marker date="1527941548488" expanded="true" signature="1563:1716" ph="/* where the generic resource dictionary is located ... */" />
-            <marker date="1527941548488" expanded="true" signature="1722:2047" ph="/* Version information for an assembly consists of the following four values: ... */" />
-          </folding>
-        </state>
+        <state relative-caret-position="-1" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Desktop/Properties/Annotations.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-300">
-          <folding>
-            <marker date="1527941548547" expanded="true" signature="0:1096" ph="/* MIT License ... */" />
-            <marker date="1527941548547" expanded="true" signature="1142:1429" ph="/* ReSharper disable UnusedMember.Global ... */" />
-            <marker date="1527941548547" expanded="true" signature="1473:41727" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="1478:1891" ph="/// Indicates that the value of the marked element could be &lt;c&gt;null&lt;/c&gt; sometimes, ... " />
-            <marker date="1527941548547" expanded="true" signature="1894:2173" ph="[...]" />
-            <marker date="1527941548547" expanded="true" signature="2234:2490" ph="/// Indicates that the value of the marked element could never be &lt;c&gt;null&lt;/c&gt;. ... " />
-            <marker date="1527941548547" expanded="true" signature="2493:2772" ph="[...]" />
-            <marker date="1527941548547" expanded="true" signature="2831:3113" ph="/// Can be appplied to symbols of types derived from IEnumerable as well as to symbols of Task ... " />
-            <marker date="1527941548547" expanded="true" signature="3116:3276" ph="[...]" />
-            <marker date="1527941548547" expanded="true" signature="3339:3615" ph="/// Can be appplied to symbols of types derived from IEnumerable as well as to symbols of Task ... " />
-            <marker date="1527941548547" expanded="true" signature="3618:3778" ph="[...]" />
-            <marker date="1527941548547" expanded="true" signature="3843:4443" ph="/// Indicates that the marked method builds string by format pattern and (optional) arguments. ... " />
-            <marker date="1527941548547" expanded="true" signature="4446:4583" ph="[...]" />
-            <marker date="1527941548547" expanded="true" signature="4645:5014" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="4654:4801" ph="/// &lt;param name=&quot;formatParameterName&quot;&gt; ... " />
-            <marker date="1527941548547" expanded="true" signature="4878:4939" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="5018:5207" ph="/// For a parameter that is expected to be one of the limited set of values. ... " />
-            <marker date="1527941548547" expanded="true" signature="5210:5338" ph="[...]" />
-            <marker date="1527941548547" expanded="true" signature="5395:5547" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="5456:5487" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="5551:6007" ph="/// Indicates that the function argument should be string literal and match one ... " />
-            <marker date="1527941548547" expanded="true" signature="6126:7606" ph="/// Indicates that the method is contained in a type that implements ... " />
-            <marker date="1527941548547" expanded="true" signature="7724:7988" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="7868:7917" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="7992:10103" ph="/// Describes dependency between method input and output. ... " />
-            <marker date="1527941548547" expanded="true" signature="10231:10623" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="10424:10504" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="10627:10902" ph="/// Indicates that marked element should be localized or not. ... " />
-            <marker date="1527941548547" expanded="true" signature="11007:11219" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="11128:11167" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="11223:11875" ph="/// Indicates that the value of the marked type (or its derivatives) ... " />
-            <marker date="1527941548547" expanded="true" signature="12052:12539" ph="/// When applied to a target attribute, specifies a requirement for any type marked ... " />
-            <marker date="1527941548547" expanded="true" signature="12704:12871" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="12770:12809" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="12875:13098" ph="/// Indicates that the marked symbol is used implicitly (e.g. via reflection, in external library), ... " />
-            <marker date="1527941548547" expanded="true" signature="13197:13911" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="13690:13770" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="13915:14105" ph="/// Should be used on attributes and causes ReSharper to not mark symbols marked with such attributes ... " />
-            <marker date="1527941548547" expanded="true" signature="14244:15000" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="14745:14825" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="15046:15681" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="15310:15507" ph="/// Indicates implicit instantiation of a type with fixed constructor signature. ... " />
-            <marker date="1527941548547" expanded="true" signature="15685:15869" ph="/// Specify what is considered used implicitly when marked ... " />
-            <marker date="1527941548547" expanded="true" signature="15916:16195" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="16199:16354" ph="/// This attribute is intended to mark publicly available API ... " />
-            <marker date="1527941548547" expanded="true" signature="16464:16663" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="16561:16598" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="16667:17013" ph="/// Tells code analysis engine if the parameter is completely handled when the invoked method is on stack. ... " />
-            <marker date="1527941548547" expanded="true" signature="17125:17504" ph="/// Indicates that a method does not make any observable state changes. ... " />
-            <marker date="1527941548547" expanded="true" signature="17604:17707" ph="/// Indicates that the return value of method invocation must be used. ... " />
-            <marker date="1527941548547" expanded="true" signature="17813:18054" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="17934:17983" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="18058:18726" ph="/// Indicates the type member or parameter of some type, that should be used instead of all other ways ... " />
-            <marker date="1527941548547" expanded="true" signature="18729:18977" ph="[...]" />
-            <marker date="1527941548547" expanded="true" signature="19044:19229" ph="/// Indicates that a parameter is a path to a file or a folder within a web project. ... " />
-            <marker date="1527941548547" expanded="true" signature="19333:19559" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="19454:19493" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="19563:20702" ph="/// An extension method marked with this attribute is processed by ReSharper code completion ... " />
-            <marker date="1527941548547" expanded="true" signature="20812:22106" ph="/// Allows specifying a macro for a parameter of a &lt;see cref=&quot;SourceTemplateAttribute&quot;&gt;source template&lt;/see&gt;. ... " />
-            <marker date="1527941548547" expanded="true" signature="22250:23338" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="22259:22460" ph="/// Allows specifying a macro that will be executed for a &lt;see cref=&quot;SourceTemplateAttribute&quot;&gt;source template&lt;/se ... " />
-            <marker date="1527941548547" expanded="true" signature="22521:23027" ph="/// Allows specifying which occurrence of the target parameter becomes editable when the template is deployed. ... " />
-            <marker date="1527941548547" expanded="true" signature="23071:23283" ph="/// Identifies the target parameter of a &lt;see cref=&quot;SourceTemplateAttribute&quot;&gt;source template&lt;/see&gt; if the ... " />
-            <marker date="1527941548547" expanded="true" signature="23534:23711" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="23614:23649" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="23912:24094" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="23997:24032" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="24288:24463" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="24366:24401" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="24655:24828" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="24731:24766" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="25025:25203" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="25106:25141" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="25393:25564" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="25467:25502" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="25568:25939" ph="/// ASP.NET MVC attribute. If applied to a parameter, indicates that the parameter ... " />
-            <marker date="1527941548547" expanded="true" signature="26068:26313" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="26181:26238" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="26317:26564" ph="/// ASP.NET MVC attribute. Indicates that a parameter is an MVC area. ... " />
-            <marker date="1527941548547" expanded="true" signature="26665:26906" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="26774:26831" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="26910:27297" ph="/// ASP.NET MVC attribute. If applied to a parameter, indicates that the parameter is ... " />
-            <marker date="1527941548547" expanded="true" signature="27430:27683" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="27551:27608" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="27687:27902" ph="/// ASP.NET MVC attribute. Indicates that a parameter is an MVC Master. Use this attribute ... " />
-            <marker date="1527941548547" expanded="true" signature="28013:28232" ph="/// ASP.NET MVC attribute. Indicates that a parameter is an MVC model type. Use this attribute ... " />
-            <marker date="1527941548547" expanded="true" signature="28346:28732" ph="/// ASP.NET MVC attribute. If applied to a parameter, indicates that the parameter is an MVC ... " />
-            <marker date="1527941548547" expanded="true" signature="28874:29004" ph="/// ASP.NET MVC attribute. Allows disabling inspections for MVC views within a class or a method. ... " />
-            <marker date="1527941548547" expanded="true" signature="29148:29407" ph="/// ASP.NET MVC attribute. Indicates that a parameter is an MVC display template. ... " />
-            <marker date="1527941548547" expanded="true" signature="29527:29782" ph="/// ASP.NET MVC attribute. Indicates that a parameter is an MVC editor template. ... " />
-            <marker date="1527941548547" expanded="true" signature="29901:30146" ph="/// ASP.NET MVC attribute. Indicates that a parameter is an MVC template. ... " />
-            <marker date="1527941548547" expanded="true" signature="30259:30600" ph="/// ASP.NET MVC attribute. If applied to a parameter, indicates that the parameter ... " />
-            <marker date="1527941548547" expanded="true" signature="30735:30887" ph="/// ASP.NET MVC attribute. If applied to a parameter, indicates that the parameter ... " />
-            <marker date="1527941548547" expanded="true" signature="31005:31226" ph="/// ASP.NET MVC attribute. If applied to a parameter, indicates that the parameter ... " />
-            <marker date="1527941548547" expanded="true" signature="31374:31794" ph="/// ASP.NET MVC attribute. When applied to a parameter of an attribute, ... " />
-            <marker date="1527941548547" expanded="true" signature="32103:32314" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="32221:32252" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="32477:32634" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="32543:32574" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="32638:32875" ph="/// Razor attribute. Indicates that a parameter or a method is a Razor section. ... " />
-            <marker date="1527941548547" expanded="true" signature="33012:33174" ph="/// Indicates how method, constructor invocation or property access ... " />
-            <marker date="1527941548547" expanded="true" signature="33337:33564" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="33421:33484" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="33610:34079" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="34083:34359" ph="/// Indicates that the marked method is assertion method, i.e. it halts control flow if ... " />
-            <marker date="1527941548547" expanded="true" signature="34470:34728" ph="/// Indicates the condition parameter of the assertion method. The method itself should be ... " />
-            <marker date="1527941548547" expanded="true" signature="34837:35042" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="34918:34967" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="35046:35248" ph="/// Specifies assertion type. If the assertion method argument satisfies the condition, ... " />
-            <marker date="1527941548547" expanded="true" signature="35285:35674" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="35678:35859" ph="/// Indicates that the marked method unconditionally terminates control flow execution. ... " />
-            <marker date="1527941548547" expanded="true" signature="36032:36312" ph="/// Indicates that method is pure LINQ method, with postponed enumeration (like Enumerable.Select, ... " />
-            <marker date="1527941548547" expanded="true" signature="36418:36522" ph="/// Indicates that IEnumerable, passed as parameter, is not enumerated. ... " />
-            <marker date="1527941548547" expanded="true" signature="36634:36726" ph="/// Indicates that parameter is regular expression pattern. ... " />
-            <marker date="1527941548547" expanded="true" signature="36837:37060" ph="/// Prevents the Member Reordering feature from tossing members of the marked class. ... " />
-            <marker date="1527941548547" expanded="true" signature="37063:37187" ph="[...]" />
-            <marker date="1527941548547" expanded="true" signature="37248:37476" ph="/// XAML attribute. Indicates the type that has &lt;c&gt;ItemsSource&lt;/c&gt; property and should be treated ... " />
-            <marker date="1527941548547" expanded="true" signature="37587:38072" ph="/// XAML attribute. Indicates the property of some &lt;c&gt;BindingBase&lt;/c&gt;-derived type, that ... " />
-            <marker date="1527941548547" expanded="true" signature="38324:38616" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="38422:38492" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="39125:39304" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="39198:39239" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="39410:39632" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="39551:39628" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="39765:39924" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="39833:39864" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="40051:40322" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="40141:40201" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="40449:40622" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="40516:40557" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="40752:41159" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="40823:40868" ph="{...}" />
-            <marker date="1527941548547" expanded="true" signature="40952:41030" ph="{...}" />
-          </folding>
-        </state>
+        <state relative-caret-position="-300" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Desktop/Properties/Resources.Designer.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-116">
-          <folding>
-            <marker date="1527941548534" expanded="true" signature="0:395" ph="/* ------------------------------------------------------------------------------ ... */" />
-            <marker date="1527941548534" expanded="true" signature="656:2174" ph="{...}" />
-            <marker date="1527941548534" expanded="true" signature="659:767" ph="///   A strongly-typed resource class, for looking up localized strings, etc. ... " />
-            <marker date="1527941548534" expanded="true" signature="769:1012" ph="/* This class was auto-generated by the StronglyTypedResourceBuilder ... */" />
-            <marker date="1527941548534" expanded="true" signature="1014:1097" ph="[...]" />
-            <marker date="1527941548534" expanded="true" signature="1172:2172" ph="{...}" />
-            <marker date="1527941548534" expanded="true" signature="1272:1352" ph="[...]" />
-            <marker date="1527941548534" expanded="true" signature="1385:1487" ph="///   Returns the cached ResourceManager instance used by this class. ... " />
-            <marker date="1527941548534" expanded="true" signature="1490:1542" ph="[...]" />
-            <marker date="1527941548534" expanded="true" signature="1593:1825" ph="{...}" />
-            <marker date="1527941548534" expanded="true" signature="1602:1821" ph="{...}" />
-            <marker date="1527941548534" expanded="true" signature="1637:1791" ph="{...}" />
-            <marker date="1527941548534" expanded="true" signature="1829:1999" ph="///   Overrides the current thread's CurrentUICulture property for all ... " />
-            <marker date="1527941548534" expanded="true" signature="2002:2054" ph="[...]" />
-            <marker date="1527941548534" expanded="true" signature="2093:2169" ph="{...}" />
-          </folding>
-        </state>
+        <state relative-caret-position="-116" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Desktop/App.config">
@@ -917,51 +643,53 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Desktop/App.xaml.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1527771677944" expanded="true" signature="31:131" ph="{...}" />
-            <marker date="1527771677944" expanded="true" signature="34:99" ph="/// Interaction logic for App.xaml ... " />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Desktop/App.xaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="115" selection-start-line="13" selection-start-column="115" selection-end-line="13" selection-end-column="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Desktop/Settings.cs" />
+    <entry file="file://$PROJECT_DIR$/Desktop/Properties/Settings.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
           <folding>
-            <marker date="1527927946984" expanded="true" signature="0:1227" ph="&lt;&lt;Application.Resources&gt;&#10;        &lt;ResourceDictionary&gt;&#10;            &lt;ResourceDictionary.MergedDictionaries&gt;&#10;                &lt;!-- MahApps.Metro resource dictionaries. Make sure that all file names are Case Sensitive! --&gt;&#10;                &lt;ResourceDictionary Source=&quot;pack://application:,,,/MahApps.Metro;component/Styles/Controls.xaml&quot; /&gt;&#10;                &lt;ResourceDictionary Source=&quot;pack://application:,,,/MahApps.Metro;component/Styles/Fonts.xaml&quot; /&gt;&#10;                &lt;ResourceDictionary Source=&quot;pack://application:,,,/MahApps.Metro;component/Styles/Colors.xaml&quot; /&gt;&#10;                &lt;!-- Accent and AppTheme setting --&gt;&#10;                &lt;ResourceDictionary Source=&quot;pack://application:,,,/MahApps.Metro;component/Styles/Accents/Steel.xaml&quot; /&gt;&#10;                &lt;ResourceDictionary Source=&quot;pack://application:,,,/MahApps.Metro;component/Styles/Accents/BaseLight.xaml&quot; /&gt;&#10;            &lt;/ResourceDictionary.MergedDictionaries&gt;&#10;        &lt;/ResourceDictionary&gt;&#10;    &lt;/Application.Resources&gt;.../&gt;" />
-            <marker date="1527927946984" expanded="true" signature="242:1212" ph="&lt;&lt;ResourceDictionary&gt;&#10;            &lt;ResourceDictionary.MergedDictionaries&gt;&#10;                &lt;!-- MahApps.Metro resource dictionaries. Make sure that all file names are Case Sensitive! --&gt;&#10;                &lt;ResourceDictionary Source=&quot;pack://application:,,,/MahApps.Metro;component/Styles/Controls.xaml&quot; /&gt;&#10;                &lt;ResourceDictionary Source=&quot;pack://application:,,,/MahApps.Metro;component/Styles/Fonts.xaml&quot; /&gt;&#10;                &lt;ResourceDictionary Source=&quot;pack://application:,,,/MahApps.Metro;component/Styles/Colors.xaml&quot; /&gt;&#10;                &lt;!-- Accent and AppTheme setting --&gt;&#10;                &lt;ResourceDictionary Source=&quot;pack://application:,,,/MahApps.Metro;component/Styles/Accents/Steel.xaml&quot; /&gt;&#10;                &lt;ResourceDictionary Source=&quot;pack://application:,,,/MahApps.Metro;component/Styles/Accents/BaseLight.xaml&quot; /&gt;&#10;            &lt;/ResourceDictionary.MergedDictionaries&gt;&#10;        &lt;/ResourceDictionary&gt;.../&gt;" />
-            <marker date="1527927946984" expanded="true" signature="274:1183" ph="&lt;&lt;ResourceDictionary.MergedDictionaries&gt;&#10;                &lt;!-- MahApps.Metro resource dictionaries. Make sure that all file names are Case Sensitive! --&gt;&#10;                &lt;ResourceDictionary Source=&quot;pack://application:,,,/MahApps.Metro;component/Styles/Controls.xaml&quot; /&gt;&#10;                &lt;ResourceDictionary Source=&quot;pack://application:,,,/MahApps.Metro;component/Styles/Fonts.xaml&quot; /&gt;&#10;                &lt;ResourceDictionary Source=&quot;pack://application:,,,/MahApps.Metro;component/Styles/Colors.xaml&quot; /&gt;&#10;                &lt;!-- Accent and AppTheme setting --&gt;&#10;                &lt;ResourceDictionary Source=&quot;pack://application:,,,/MahApps.Metro;component/Styles/Accents/Steel.xaml&quot; /&gt;&#10;                &lt;ResourceDictionary Source=&quot;pack://application:,,,/MahApps.Metro;component/Styles/Accents/BaseLight.xaml&quot; /&gt;&#10;            &lt;/ResourceDictionary.MergedDictionaries&gt;.../&gt;" />
-            <marker date="1527927946984" expanded="true" signature="307:1153" ph="&lt;&lt;ResourceDictionary Source=&quot;pack://application:,,,/MahApps.Metro;component/Styles/Controls.xaml&quot; /&gt; &lt;ResourceDictionary Source=&quot;pack://application:,,,/MahApps.Metro;component/Styles/Fonts.xaml&quot; /&gt; &lt;ResourceDictionary Source=&quot;pack://application:,,,/MahApps.Metro;component/Styles/Colors.xaml&quot; /&gt; &lt;ResourceDictionary Source=&quot;pack://application:,,,/MahApps.Metro;component/Styles/Accents/Steel.xaml&quot; /&gt; &lt;ResourceDictionary Source=&quot;pack://application:,,,/MahApps.Metro;component/Styles/Accents/BaseLight.xaml&quot; /&gt;.../&gt;" />
+            <marker date="1527949595743" expanded="true" signature="6:125" ph="..." />
+            <marker date="1527949595743" expanded="true" signature="201:1380" ph="{...}" />
+            <marker date="1527949595743" expanded="false" signature="228:327" ph="{...}" />
+            <marker date="1527949595743" expanded="false" signature="357:462" ph="{...}" />
+            <marker date="1527949595743" expanded="false" signature="499:618" ph="{...}" />
+            <marker date="1527949595743" expanded="false" signature="707:1217" ph="{...}" />
+            <marker date="1527949595743" expanded="false" signature="1249:1377" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Desktop/Settings.cs">
+    <entry file="file://$PROJECT_DIR$/Desktop/SettingsWindow.xaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+        <state relative-caret-position="255">
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+          <folding>
+            <marker date="1527949595744" expanded="true" signature="861:2545" ph="&lt;&lt;Grid.RowDefinitions&gt;&#10;            &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;            &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;            &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;        &lt;/Grid.RowDefinitions&gt; &lt;controls:NumericUpDown Minimum=&quot;1&quot;&#10;                                Maximum=&quot;8&quot;&#10;                                Interval=&quot;1&quot;&#10;                                Value=&quot;{Binding Source={x:Static settings:Settings.Rows}, Mode=OneWay}&quot;&#10;                                NumericInputMode=&quot;Numbers&quot;&#10;                                StringFormat=&quot;Число строк: {0}&quot;&#10;                                ValueChanged=&quot;Rows_OnValueChanged&quot;&#10;                                Grid.Row=&quot;0&quot; /&gt; &lt;controls:NumericUpDown Minimum=&quot;1&quot;&#10;                                Maximum=&quot;5&quot;&#10;                                Interval=&quot;1&quot;&#10;                                Value=&quot;{Binding Source={x:Static settings:Settings.Columns}, Mode=OneWay}&quot;&#10;                                NumericInputMode=&quot;Numbers&quot;&#10;                                StringFormat=&quot;Число колонок: {0}&quot;&#10;                                ValueChanged=&quot;Columns_OnValueChanged&quot;&#10;                                Grid.Row=&quot;1&quot; /&gt; &lt;controls:NumericUpDown Minimum=&quot;10&quot;&#10;                                Maximum=&quot;3600&quot;&#10;                                Interval=&quot;5&quot;&#10;                                Value=&quot;{Binding Source={x:Static settings:Settings.UpdateInterval}, Mode=OneWay}&quot;&#10;                                NumericInputMode=&quot;Numbers&quot;&#10;                                StringFormat=&quot;Обновлять цены каждые {0} сек.&quot;&#10;                                ValueChanged=&quot;UpdateInterval_OnValueChanged&quot;&#10;                                Grid.Row=&quot;2&quot; /&gt;.../&gt;" />
+            <marker date="1527949595744" expanded="true" signature="876:1051" ph="&lt;&lt;RowDefinition Height=&quot;*&quot; /&gt; &lt;RowDefinition Height=&quot;*&quot; /&gt; &lt;RowDefinition Height=&quot;*&quot; /&gt;.../&gt;" />
+            <marker date="1527949595744" expanded="true" signature="1061:1527" ph="&lt;.../&gt;" />
+            <marker date="1527949595744" expanded="true" signature="1537:2011" ph="&lt;.../&gt;" />
+            <marker date="1527949595744" expanded="true" signature="2029:2533" ph="&lt;.../&gt;" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Desktop/Properties/Settings.cs">
+    <entry file="file://$PROJECT_DIR$/Desktop/SettingsWindow.xaml.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+        <state relative-caret-position="345">
+          <caret line="26" column="66" selection-start-line="26" selection-start-column="66" selection-end-line="26" selection-end-column="66" />
           <folding>
-            <marker date="1527949146412" expanded="true" signature="6:125" ph="..." />
-            <marker date="1527949146412" expanded="true" signature="169:1382" ph="{...}" />
-            <marker date="1527949146412" expanded="true" signature="201:1380" ph="{...}" />
-            <marker date="1527949146412" expanded="false" signature="228:327" ph="{...}" />
-            <marker date="1527949146412" expanded="false" signature="357:462" ph="{...}" />
-            <marker date="1527949146412" expanded="false" signature="499:618" ph="{...}" />
-            <marker date="1527949146412" expanded="false" signature="707:1217" ph="{...}" />
-            <marker date="1527949146412" expanded="true" signature="746:886" ph="{...}" />
-            <marker date="1527949146412" expanded="true" signature="886:1213" ph="{...}" />
-            <marker date="1527949146412" expanded="true" signature="946:1207" ph="{...}" />
-            <marker date="1527949146412" expanded="false" signature="1249:1377" ph="{...}" />
+            <marker date="1527949595745" expanded="false" signature="6:103" ph="..." />
+            <marker date="1527949595745" expanded="true" signature="175:792" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -971,67 +699,69 @@
         <state relative-caret-position="135">
           <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
           <folding>
-            <marker date="1527949289885" expanded="true" signature="0:1109" ph="&lt;&lt;controls:MetroWindow.RightWindowCommands&gt;&#10;        &lt;controls:WindowCommands&gt;&#10;            &lt;Button Content=&quot;Настройки&quot; Click=&quot;Button_OnClick&quot; /&gt;&#10;        &lt;/controls:WindowCommands&gt;&#10;    &lt;/controls:MetroWindow.RightWindowCommands&gt; &lt;UniformGrid Name=&quot;ItemTable&quot;/&gt; &lt;Window.Loaded&gt;Window_OnLoaded&lt;/Window.Loaded&gt; &lt;Window.Closed&gt;Window_OnClosed&lt;/Window.Closed&gt;.../&gt;" />
-            <marker date="1527949289885" expanded="true" signature="716:941" ph="&lt;&lt;controls:WindowCommands&gt;&#10;            &lt;Button Content=&quot;Настройки&quot; Click=&quot;Button_OnClick&quot; /&gt;&#10;        &lt;/controls:WindowCommands&gt;.../&gt;" />
-            <marker date="1527949289885" expanded="true" signature="767:893" ph="&lt;&lt;Button Content=&quot;Настройки&quot; Click=&quot;Button_OnClick&quot; /&gt;.../&gt;" />
+            <marker date="1527949595734" expanded="true" signature="716:941" ph="&lt;&lt;controls:WindowCommands&gt;&#10;            &lt;Button Content=&quot;Настройки&quot; Click=&quot;Button_OnClick&quot; /&gt;&#10;        &lt;/controls:WindowCommands&gt;.../&gt;" />
+            <marker date="1527949595734" expanded="true" signature="767:893" ph="&lt;&lt;Button Content=&quot;Настройки&quot; Click=&quot;Button_OnClick&quot; /&gt;.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Logic/Data/Item.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <marker date="1528010150968" expanded="false" signature="6:180" ph="..." />
+            <marker date="1528010150968" expanded="true" signature="216:1876" ph="{...}" />
+            <marker date="1528010150968" expanded="false" signature="219:261" ph="/// Предмет ... " />
+            <marker date="1528010150968" expanded="true" signature="313:1874" ph="{...}" />
+            <marker date="1528010150968" expanded="false" signature="378:432" ph="/// Название предмета ... " />
+            <marker date="1528010150968" expanded="false" signature="469:561" ph="{...}" />
+            <marker date="1528010150968" expanded="true" signature="495:557" ph="{...}" />
+            <marker date="1528010150968" expanded="false" signature="565:606" ph="/// Цена ... " />
+            <marker date="1528010150968" expanded="false" signature="643:738" ph="{...}" />
+            <marker date="1528010150968" expanded="true" signature="670:734" ph="{...}" />
+            <marker date="1528010150968" expanded="false" signature="742:796" ph="/// Ссылка на предмет ... " />
+            <marker date="1528010150968" expanded="false" signature="818:947" ph="{...}" />
+            <marker date="1528010150968" expanded="true" signature="844:943" ph="{...}" />
+            <marker date="1528010150968" expanded="false" signature="951:1003" ph="/// Иконка предмета ... " />
+            <marker date="1528010150968" expanded="false" signature="1040:1098" ph="{...}" />
+            <marker date="1528010150968" expanded="false" signature="1261:1514" ph="{...}" />
+            <marker date="1528010150968" expanded="true" signature="1282:1480" ph="{...}" />
+            <marker date="1528010150968" expanded="true" signature="1480:1510" ph="{...}" />
+            <marker date="1528010150968" expanded="false" signature="1552:1672" ph="{...}" />
+            <marker date="1528010150968" expanded="true" signature="1573:1628" ph="{...}" />
+            <marker date="1528010150968" expanded="true" signature="1628:1668" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Desktop/MainWindow.xaml.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="126" column="57" selection-start-line="126" selection-start-column="57" selection-end-line="126" selection-end-column="57" />
+        <state relative-caret-position="442">
+          <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
           <folding>
-            <marker date="1527949318698" expanded="true" signature="6:433" ph="..." />
-            <marker date="1527949318698" expanded="true" signature="466:4011" ph="{...}" />
-            <marker date="1527949318698" expanded="false" signature="469:541" ph="/// Interaction logic for MainWindow.xaml ... " />
-            <marker date="1527949318698" expanded="true" signature="575:4009" ph="{...}" />
-            <marker date="1527949318698" expanded="false" signature="579:624" ph="/// Предметы ... " />
-            <marker date="1527949318698" expanded="false" signature="729:1176" ph="{...}" />
-            <marker date="1527949318698" expanded="true" signature="930:1172" ph="{...}" />
-            <marker date="1527949318698" expanded="true" signature="994:1167" ph="{...}" />
-            <marker date="1527949318698" expanded="false" signature="1251:2690" ph="{...}" />
-            <marker date="1527949318698" expanded="false" signature="1333:2226" ph="{...}" />
-            <marker date="1527949318698" expanded="true" signature="1370:1489" ph="{...}" />
-            <marker date="1527949318698" expanded="true" signature="1517:2220" ph="{...}" />
-            <marker date="1527949318698" expanded="false" signature="2270:2434" ph="{...}" />
-            <marker date="1527949318698" expanded="true" signature="2333:2399" ph="{...}" />
-            <marker date="1527949318698" expanded="true" signature="2410:2429" ph="{...}" />
-            <marker date="1527949318698" expanded="false" signature="2460:2597" ph="{...}" />
-            <marker date="1527949318698" expanded="false" signature="2757:2825" ph="{...}" />
-            <marker date="1527949318698" expanded="true" signature="2791:2821" ph="{...}" />
-            <marker date="1527949318698" expanded="false" signature="2875:3534" ph="{...}" />
-            <marker date="1527949318698" expanded="true" signature="3007:3218" ph="{...}" />
-            <marker date="1527949318698" expanded="false" signature="3597:3718" ph="{...}" />
-            <marker date="1527949318698" expanded="true" signature="3786:4006" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Desktop/SettingsWindow.xaml.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="26" column="66" selection-start-line="26" selection-start-column="66" selection-end-line="26" selection-end-column="66" />
-          <folding>
-            <marker date="1527948658617" expanded="true" signature="6:103" ph="..." />
-            <marker date="1527948658617" expanded="true" signature="136:794" ph="{...}" />
-            <marker date="1527948658617" expanded="true" signature="175:792" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Desktop/SettingsWindow.xaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="82" lean-forward="true" selection-start-line="4" selection-start-column="82" selection-end-line="4" selection-end-column="82" />
-          <folding>
-            <marker date="1527949332925" expanded="true" signature="0:2569" ph="&lt;&lt;Grid&gt;&#10;        &lt;Grid.RowDefinitions&gt;&#10;            &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;            &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;            &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;        &lt;/Grid.RowDefinitions&gt;&#10;&#10;        &lt;controls:NumericUpDown Minimum=&quot;1&quot;&#10;                                Maximum=&quot;8&quot;&#10;                                Interval=&quot;1&quot;&#10;                                Value=&quot;{Binding Source={x:Static settings:Settings.Rows}, Mode=OneWay}&quot;&#10;                                NumericInputMode=&quot;Numbers&quot;&#10;                                StringFormat=&quot;Число строк: {0}&quot;&#10;                                ValueChanged=&quot;Rows_OnValueChanged&quot;&#10;                                Grid.Row=&quot;0&quot; /&gt;&#10;&#10;        &lt;controls:NumericUpDown Minimum=&quot;1&quot;&#10;                                Maximum=&quot;5&quot;&#10;                                Interval=&quot;1&quot;&#10;                                Value=&quot;{Binding Source={x:Static settings:Settings.Columns}, Mode=OneWay}&quot;&#10;                                NumericInputMode=&quot;Numbers&quot;&#10;                                StringFormat=&quot;Число колонок: {0}&quot;&#10;                                ValueChanged=&quot;Columns_OnValueChanged&quot;&#10;                                Grid.Row=&quot;1&quot; /&gt;&#10;        &#10;        &lt;controls:NumericUpDown Minimum=&quot;10&quot;&#10;                                Maximum=&quot;3600&quot;&#10;                                Interval=&quot;5&quot;&#10;                                Value=&quot;{Binding Source={x:Static settings:Settings.UpdateInterval}, Mode=OneWay}&quot;&#10;                                NumericInputMode=&quot;Numbers&quot;&#10;                                StringFormat=&quot;Обновлять цены каждые {0} сек.&quot;&#10;                                ValueChanged=&quot;UpdateInterval_OnValueChanged&quot;&#10;                                Grid.Row=&quot;2&quot; /&gt;&#10;    &lt;/Grid&gt;.../&gt;" />
-            <marker date="1527949332925" expanded="true" signature="861:2545" ph="&lt;&lt;Grid.RowDefinitions&gt;&#10;            &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;            &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;            &lt;RowDefinition Height=&quot;*&quot; /&gt;&#10;        &lt;/Grid.RowDefinitions&gt; &lt;controls:NumericUpDown Minimum=&quot;1&quot;&#10;                                Maximum=&quot;8&quot;&#10;                                Interval=&quot;1&quot;&#10;                                Value=&quot;{Binding Source={x:Static settings:Settings.Rows}, Mode=OneWay}&quot;&#10;                                NumericInputMode=&quot;Numbers&quot;&#10;                                StringFormat=&quot;Число строк: {0}&quot;&#10;                                ValueChanged=&quot;Rows_OnValueChanged&quot;&#10;                                Grid.Row=&quot;0&quot; /&gt; &lt;controls:NumericUpDown Minimum=&quot;1&quot;&#10;                                Maximum=&quot;5&quot;&#10;                                Interval=&quot;1&quot;&#10;                                Value=&quot;{Binding Source={x:Static settings:Settings.Columns}, Mode=OneWay}&quot;&#10;                                NumericInputMode=&quot;Numbers&quot;&#10;                                StringFormat=&quot;Число колонок: {0}&quot;&#10;                                ValueChanged=&quot;Columns_OnValueChanged&quot;&#10;                                Grid.Row=&quot;1&quot; /&gt; &lt;controls:NumericUpDown Minimum=&quot;10&quot;&#10;                                Maximum=&quot;3600&quot;&#10;                                Interval=&quot;5&quot;&#10;                                Value=&quot;{Binding Source={x:Static settings:Settings.UpdateInterval}, Mode=OneWay}&quot;&#10;                                NumericInputMode=&quot;Numbers&quot;&#10;                                StringFormat=&quot;Обновлять цены каждые {0} сек.&quot;&#10;                                ValueChanged=&quot;UpdateInterval_OnValueChanged&quot;&#10;                                Grid.Row=&quot;2&quot; /&gt;.../&gt;" />
-            <marker date="1527949332925" expanded="false" signature="876:1051" ph="&lt;&lt;RowDefinition Height=&quot;*&quot; /&gt; &lt;RowDefinition Height=&quot;*&quot; /&gt; &lt;RowDefinition Height=&quot;*&quot; /&gt;.../&gt;" />
-            <marker date="1527949332925" expanded="false" signature="1061:1527" ph="&lt;.../&gt;" />
-            <marker date="1527949332925" expanded="false" signature="1537:2011" ph="&lt;.../&gt;" />
-            <marker date="1527949332925" expanded="false" signature="2029:2533" ph="&lt;.../&gt;" />
+            <marker date="1528010113779" expanded="false" signature="6:352" ph="..." />
+            <marker date="1528010113779" expanded="true" signature="385:3399" ph="{...}" />
+            <marker date="1528010113779" expanded="false" signature="388:460" ph="/// Interaction logic for MainWindow.xaml ... " />
+            <marker date="1528010113779" expanded="true" signature="494:3397" ph="{...}" />
+            <marker date="1528010113779" expanded="false" signature="498:543" ph="/// Предметы ... " />
+            <marker date="1528010113779" expanded="false" signature="648:1123" ph="{...}" />
+            <marker date="1528010113779" expanded="false" signature="849:1119" ph="{...}" />
+            <marker date="1528010113779" expanded="true" signature="913:1114" ph="{...}" />
+            <marker date="1528010113779" expanded="false" signature="1198:2067" ph="{...}" />
+            <marker date="1528010113779" expanded="false" signature="1280:1593" ph="{...}" />
+            <marker date="1528010113779" expanded="true" signature="1352:1473" ph="{...}" />
+            <marker date="1528010113779" expanded="true" signature="1532:1568" ph="{...}" />
+            <marker date="1528010113779" expanded="true" signature="1637:1811" ph="{...}" />
+            <marker date="1528010113779" expanded="true" signature="1710:1776" ph="{...}" />
+            <marker date="1528010113779" expanded="true" signature="1787:1806" ph="{...}" />
+            <marker date="1528010113779" expanded="false" signature="1837:1974" ph="{...}" />
+            <marker date="1528010113779" expanded="false" signature="2134:2202" ph="{...}" />
+            <marker date="1528010113779" expanded="true" signature="2168:2198" ph="{...}" />
+            <marker date="1528010113779" expanded="false" signature="2259:2922" ph="{...}" />
+            <marker date="1528010113779" expanded="true" signature="2391:2602" ph="{...}" />
+            <marker date="1528010113779" expanded="false" signature="2985:3106" ph="{...}" />
+            <marker date="1528010113779" expanded="false" signature="3174:3394" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -7,12 +7,10 @@ using System.Threading.Tasks;
 using System.Timers;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Controls.Primitives;
 using System.Windows.Media;
 using Newtonsoft.Json;
 using PWCatsViewer.Desktop.Properties;
 using PWCatsViewer.Logic.Data;
-using static PWCatsViewer.Desktop.App;
 
 namespace PWCatsViewer.Desktop {
 	/// <summary>
@@ -38,6 +36,7 @@ namespace PWCatsViewer.Desktop {
 
 			for (int row = 0; row < Settings.Rows; row++) {
 				for (int column = 0; column < Settings.Columns; column++) {
+					Items.Add(new Item());
 					ItemCard card = new ItemCard {Style = GetStyle(row, column)};
 					ItemTable.Children.Add(card);
 					Grid.SetRow(card, row);
@@ -52,25 +51,20 @@ namespace PWCatsViewer.Desktop {
 			Title = "PW Cats Viewer [Загрузка...]";
 
 			var items = await Task.Run(() => {
+				var result = new List<Item>();
 				if (File.Exists("items.json")) {
 					string json = File.ReadAllText("items.json");
-					return JsonConvert.DeserializeObject<List<Item>>(json);
+					result = JsonConvert.DeserializeObject<List<Item>>(json);
 				}
 
-				return new List<Item> {
-					                      new Item("https://pwcats.info/lisichka/11208"),
-					                      new Item("https://pwcats.info/lisichka/12830"),
-					                      new Item("https://pwcats.info/lisichka/12979"),
-					                      new Item("https://pwcats.info/lisichka/41375"),
-					                      new Item("https://pwcats.info/lisichka/39872"),
-					                      new Item("https://pwcats.info/lisichka/24721"),
-					                      new Item("https://pwcats.info/lisichka/25821"),
-					                      new Item("https://pwcats.info/lisichka/25820"),
-					                      new Item("https://pwcats.info/lisichka/50249")
-				                      };
+				if (result.Count < Settings.Columns * Settings.Rows) {
+					result.Add(new Item());
+				}
+
+				return result;
 			});
 			for (int i = 0; i < items.Count; i++) {
-				Items.Add(items[i]);
+				Items[i].Link = items[i].Link;
 				Items[i].UpdatePrice();
 				try {
 					( (ItemCard) ItemTable.Children[i] ).Item = Items[i];
@@ -100,7 +94,7 @@ namespace PWCatsViewer.Desktop {
 
 
 
-		private Style GetStyle(int row, int column) {
+		private static Style GetStyle(int row, int column) {
 			int pos = ( ( row + 1 ) + ( column + 1 ) ) % 2;
 
 			Style itemCardStyle = new Style();
@@ -111,6 +105,7 @@ namespace PWCatsViewer.Desktop {
 			itemCardStyle.Setters.Add(new Setter {Property = MarginProperty, Value = new Thickness(1)});
 			itemCardStyle.Setters.Add(new Setter {Property = MaxHeightProperty, Value = (double) 120});
 			itemCardStyle.Setters.Add(new Setter {Property = MaxWidthProperty, Value = (double) 300});
+			
 			return itemCardStyle;
 		}
 

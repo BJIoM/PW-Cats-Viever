@@ -1,21 +1,21 @@
 ﻿using System;
 using System.ComponentModel;
-using System.IO;
-using System.Net;
 using System.Runtime.CompilerServices;
 using System.Text.RegularExpressions;
+using Newtonsoft.Json;
 using PWCatsViewer.Logic.Annotations;
 
 namespace PWCatsViewer.Logic.Data {
 	/// <summary>
 	/// Предмет
 	/// </summary>
-	public class Item : INotifyPropertyChanged {
+	public sealed class Item : INotifyPropertyChanged {
 		public event PropertyChangedEventHandler PropertyChanged;
 
 		/// <summary>
 		/// Название предмета
 		/// </summary>
+		[JsonIgnore]
 		public string Name {
 			get => _name;
 			set {
@@ -27,6 +27,7 @@ namespace PWCatsViewer.Logic.Data {
 		/// <summary>
 		/// Цена
 		/// </summary>
+		[JsonIgnore]
 		public Price Price {
 			get => _price;
 			set {
@@ -51,6 +52,7 @@ namespace PWCatsViewer.Logic.Data {
 		/// <summary>
 		/// Иконка предмета
 		/// </summary>
+		[JsonIgnore]
 		public string Icon {
 			get => $"https://pwcats.info/img/item/{_id}.png";
 		}
@@ -60,15 +62,6 @@ namespace PWCatsViewer.Logic.Data {
 		private Price _price;
 		private string _link;
 		private int _id;
-
-
-
-		/// <summary>
-		/// Предмет
-		/// </summary>
-		/// <param name="link">Ссылка на котобазу</param>
-		public Item(string link) => Link = link;
-
 
 
 		public Item() => Link = "";
@@ -101,7 +94,7 @@ namespace PWCatsViewer.Logic.Data {
 
 
 		[NotifyPropertyChangedInvocator]
-		protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
+		private void OnPropertyChanged([CallerMemberName] string propertyName = null)
 			=> PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
 	}
 }
