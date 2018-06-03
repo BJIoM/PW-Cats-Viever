@@ -3,7 +3,7 @@ using System.ComponentModel;
 using System.Windows;
 using PWCatsViewer.Desktop.Properties;
 
-namespace PWCatsViewer.Desktop {
+namespace PWCatsViewer.Desktop.View {
 	public partial class SettingsWindow {
 		public SettingsWindow() => InitializeComponent();
 

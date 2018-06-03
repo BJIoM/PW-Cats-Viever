@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Input;
 
-namespace PWCatsViewer.Desktop {
+namespace PWCatsViewer.Desktop.VievModel {
 	public class ClickDelegate : ICommand {
 		public event EventHandler CanExecuteChanged;
 

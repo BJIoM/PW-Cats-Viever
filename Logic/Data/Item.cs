@@ -1,40 +1,31 @@
 ﻿using System;
-using System.ComponentModel;
-using System.Runtime.CompilerServices;
-using System.Text.RegularExpressions;
 using Newtonsoft.Json;
-using PWCatsViewer.Logic.Annotations;
+using PWCatsViewer.Logic.Api.PwCatsApi;
+using PWCatsViewer.Logic.Api.PwCatsApi.Model;
 
 namespace PWCatsViewer.Logic.Data {
 	/// <summary>
 	/// Предмет
 	/// </summary>
-	public sealed class Item : INotifyPropertyChanged {
-		public event PropertyChangedEventHandler PropertyChanged;
+	public class Item {
+		#region События
+
+		public event EventHandler Updated;
+
+		#endregion
+		
+		#region Свойства
 
 		/// <summary>
 		/// Название предмета
 		/// </summary>
-		[JsonIgnore]
-		public string Name {
-			get => _name;
-			set {
-				_name = value;
-				OnPropertyChanged(nameof(Name));
-			}
-		}
+		public string Name { get; private set; }
 
 		/// <summary>
 		/// Цена
 		/// </summary>
 		[JsonIgnore]
-		public Price Price {
-			get => _price;
-			set {
-				_price = value;
-				OnPropertyChanged(nameof(Price));
-			}
-		}
+		public Price Price { get; private set; }
 
 		/// <summary>
 		/// Ссылка на предмет
@@ -43,9 +34,7 @@ namespace PWCatsViewer.Logic.Data {
 			get => _link;
 			set {
 				_link = value;
-				UpdateName();
-				OnPropertyChanged(nameof(Icon));
-				UpdatePrice();
+				Update();
 			}
 		}
 
@@ -54,47 +43,56 @@ namespace PWCatsViewer.Logic.Data {
 		/// </summary>
 		[JsonIgnore]
 		public string Icon {
-			get => $"https://pwcats.info/img/item/{_id}.png";
+			get => $"https://pwcats.info/img/item/{Id}.png";
 		}
 
+		/// <summary>
+		/// Id предмета
+		/// </summary>
+		[JsonIgnore]
+		private int Id { get; set; }
 
-		private string _name;
-		private Price _price;
+		#endregion
+
+		#region Поля
+
 		private string _link;
-		private int _id;
 
+		#endregion
 
-		public Item() => Link = "";
+		#region Конструкторы
 
+		public Item() => _link = "";
 
+		#endregion
 
-		private async void UpdateName() {
+		#region Методы
+
+		public void UpdatePrice() {
 			if (Link != "") {
-				Regex parser = new Regex(@"pwcats.info\/(\w*)\/(\d*)");
-				Match info = parser.Match(Link);
-				_id = Convert.ToInt32(info.Groups[2].Value);
-				Name = await PWCatsApi.GetNameAsync(_id);
+				Price = PwCatsApi.Items.GetPriceByLink(Link);
+				Updated?.Invoke(this, EventArgs.Empty);
+			}
+		}
+
+
+
+		private void Update() {
+			if (Link != "") {
+				Api.PwCatsApi.Model.Item item = PwCatsApi.Items.GetItemByLink(Link);
+				Id = item.Id;
+				Name = item.Name;
+				Price = item.Price;
+				Updated?.Invoke(this, EventArgs.Empty);
 			}
 			else {
+				Id = 0;
 				Name = "";
-			}
-		}
-
-
-
-		public async void UpdatePrice() {
-			if (Link != "") {
-				Price = await PWCatsApi.GetPriceAsync(Link);
-			}
-			else {
 				Price = new Price();
+				Updated?.Invoke(this, EventArgs.Empty);
 			}
 		}
 
-
-
-		[NotifyPropertyChangedInvocator]
-		private void OnPropertyChanged([CallerMemberName] string propertyName = null)
-			=> PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+		#endregion
 	}
 }

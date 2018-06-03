@@ -8,12 +8,7 @@
         <e p="App.xaml" t="Include" />
         <e p="App.xaml.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
-        <e p="ClickDelegate.cs" t="Include" />
         <e p="Desktop.csproj" t="IncludeRecursive" />
-        <e p="ItemCard.xaml" t="Include" />
-        <e p="ItemCard.xaml.cs" t="Include" />
-        <e p="MainWindow.xaml" t="Include" />
-        <e p="MainWindow.xaml.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive" />
         <e p="packages.config" t="Include" />
         <e p="Properties" t="Include">
@@ -23,17 +18,36 @@
           <e p="Resources.resx" t="Include" />
           <e p="Settings.cs" t="Include" />
         </e>
-        <e p="SettingsWindow.xaml" t="Include" />
-        <e p="SettingsWindow.xaml.cs" t="Include" />
+        <e p="VievModel" t="Include">
+          <e p="ClickDelegate.cs" t="Include" />
+          <e p="MainWindow.cs" t="Include" />
+        </e>
+        <e p="View" t="Include">
+          <e p="ItemCard.xaml" t="Include" />
+          <e p="ItemCard.xaml.cs" t="Include" />
+          <e p="MainWindow.xaml" t="Include" />
+          <e p="MainWindow.xaml.cs" t="Include" />
+          <e p="SettingsWindow.xaml" t="Include" />
+          <e p="SettingsWindow.xaml.cs" t="Include" />
+        </e>
       </e>
       <e p="Logic" t="IncludeRecursive">
         <e p="Annotations.cs" t="Include" />
+        <e p="Api" t="Include">
+          <e p="PwCatsApi" t="Include">
+            <e p="Items.cs" t="Include" />
+            <e p="Model" t="Include">
+              <e p="Item.cs" t="Include" />
+              <e p="Price.cs" t="Include" />
+              <e p="PriceValue.cs" t="Include" />
+            </e>
+            <e p="PWCatsApi.cs" t="Include" />
+            <e p="PwCatsApiBase.cs" t="Include" />
+          </e>
+        </e>
         <e p="bin" t="ExcludeRecursive" />
         <e p="Data" t="Include">
           <e p="Item.cs" t="Include" />
-          <e p="Price.cs" t="Include" />
-          <e p="PWCatsApi.cs" t="Include" />
-          <e p="PWCatsResponse.cs" t="Include" />
         </e>
         <e p="Logic.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
